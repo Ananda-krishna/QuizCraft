@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizCraft - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Google Identity Services -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body class="login-body">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="dirt-border"></div>
+            <h1 class="login-title pixel-text">Quiz<span>Craft</span></h1>
+            
+            <div class="login-content">
+                <p class="pixel-text" style="text-align: center; margin-bottom: 2rem; font-size: 1.5rem; color: #333;">Welcome, Traveler! Sign in to join the world.</p>
+                
+                <div id="g_id_onload"
+                     data-client_id="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+                     data-callback="handleCredentialResponse"
+                     data-auto_prompt="false">
+                </div>
+                
+                <div class="google-btn-wrapper">
+                    <div class="g_id_signin"
+                         data-type="standard"
+                         data-size="large"
+                         data-theme="filled_blue"
+                         data-text="signin_with"
+                         data-shape="rectangular"
+                         data-logo_alignment="left">
+                    </div>
+                </div>
+
+                <div id="login-error" class="hidden pixel-text" style="color: #FF5555; text-align: center; margin-top: 1.5rem;">Authentication Failed!</div>
+            </div>
+            
+            <div style="margin-top: 2rem; text-align: center; font-size: 0.9rem; color: #666;" class="pixel-text">
+                Note: You'll need to update the Client ID in login.html to make this work.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function handleCredentialResponse(response) {
+            try {
+                // Decode JWT Payload
+                const payload = JSON.parse(atob(response.credential.split('.')[1]));
+                console.log("Logged in as: " + payload.name);
+                
+                // Store user info
+                localStorage.setItem('quizcraft_user', payload.name);
+                localStorage.setItem('quizcraft_email', payload.email);
+                localStorage.setItem('quizcraft_picture', payload.picture);
+                
+                // Redirect to game
+                window.location.href = '/index.html';
+            } catch (error) {
+                console.error("Login Error:", error);
+                document.getElementById('login-error').classList.remove('hidden');
+            }
+        }
+
+        // Check if already logged in
+        if (localStorage.getItem('quizcraft_user')) {
+            window.location.href = '/index.html';
+        }
+    </script>
+</body>
+</html>

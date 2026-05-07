@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // ---- User Info ----
+    const userNameEl = document.getElementById('user-name');
+    const userPhotoEl = document.getElementById('user-photo');
+    const storedName = localStorage.getItem('quizcraft_user');
+    const storedPhoto = localStorage.getItem('quizcraft_picture');
+
+    if (userNameEl && storedName) {
+        userNameEl.textContent = storedName;
+    }
+    if (userPhotoEl && storedPhoto) {
+        userPhotoEl.src = storedPhoto;
+        userPhotoEl.style.display = 'block';
+    }
+
     // ---- Navigation Elements ----
     const tabTake = document.getElementById('tab-take');
     const tabBuild = document.getElementById('tab-build');
@@ -55,6 +69,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // ---- 1. Tab Navigation & Modal Logic ----
     tabTake.addEventListener('click', () => switchTab('take'));
     tabBuild.addEventListener('click', () => switchTab('build'));
+
+    const logoutBtn = document.getElementById('logout-btn');
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', () => {
+            localStorage.removeItem('quizcraft_user');
+            window.location.href = '/login.html';
+        });
+    }
 
     exitQuizBtn.addEventListener('click', () => {
         confirmModal.classList.remove('hidden');

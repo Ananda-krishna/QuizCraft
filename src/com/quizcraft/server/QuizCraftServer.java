@@ -54,7 +54,7 @@ public class QuizCraftServer {
         public void handle(HttpExchange exchange) throws IOException {
             String path = exchange.getRequestURI().getPath();
             if (path.equals("/")) {
-                path = "/index.html";
+                path = "/login.html";
             }
 
             File file = new File(STATIC_DIR + path);

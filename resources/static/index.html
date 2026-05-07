@@ -7,16 +7,26 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
+<script>
+    if (!localStorage.getItem('quizcraft_user')) {
+        window.location.href = '/login.html';
+    }
+</script>
 <body>
     <div class="minecraft-bg"></div>
     <div class="app-container">
         <header>
+            <div id="user-profile" class="pixel-text" style="position: absolute; top: 1rem; right: 1rem; display: flex; align-items: center; gap: 1rem; background: rgba(0,0,0,0.5); padding: 0.5rem 1rem; border: 2px solid white; color: white;">
+                <img id="user-photo" src="" alt="" style="width: 32px; height: 32px; border: 2px solid #55FF55; display: none;">
+                <span id="user-name">Loading...</span>
+            </div>
             <h1 class="pixel-text">Quiz<span>Craft</span></h1>
             <p class="pixel-text">Survive the questions, build your knowledge.</p>
             
             <div class="nav-tabs">
                 <button class="tab-btn active" id="tab-take">Take a Quiz</button>
                 <button class="tab-btn" id="tab-build">Build a Quiz</button>
+                <button class="tab-btn" id="logout-btn" style="background: #AA0000; color: white;">Logout</button>
             </div>
         </header>
 

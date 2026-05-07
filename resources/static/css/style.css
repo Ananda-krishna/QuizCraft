@@ -844,3 +844,88 @@ input[type="text"]:focus + label, textarea:focus + label {
     border-bottom: 4px solid var(--mc-shadow);
     padding-bottom: 1rem;
 }
+
+/* Login Page Styles */
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.login-card {
+    background: #c6c6c6;
+    border: 6px solid #000;
+    width: 100%;
+    max-width: 400px;
+    padding: 3rem 2rem;
+    position: relative;
+    box-shadow: inset -4px -4px 0px #555, inset 4px 4px 0px #fff;
+    animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.login-title {
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    text-shadow: 4px 4px 0px #000;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.login-input-group label {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.mc-input {
+    background: #000;
+    border: 4px solid #555;
+    border-top-color: #222;
+    border-left-color: #222;
+    padding: 0.8rem 1rem;
+    color: #55FF55;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.mc-input:focus {
+    border-color: #55FF55;
+}
+
+.login-btn {
+    margin-top: 1rem;
+}
+
+.google-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 10px;
+    border: 4px solid #555;
+    border-top-color: #eee;
+    border-left-color: #eee;
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.3);
+}
+
+.dirt-border {
+    position: absolute;
+    top: -10px; left: -10px; right: -10px; bottom: -10px;
+    border: 10px solid transparent;
+    border-image: url('/images/grass_pattern.svg') 10 repeat;
+    pointer-events: none;
+    z-index: -1;
+}
