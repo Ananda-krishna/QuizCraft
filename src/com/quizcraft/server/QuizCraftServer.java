@@ -11,6 +11,13 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import com.quizcraft.server.QuizDataGenerator;
+
+import java.io.*;
+import java.net.InetSocketAddress;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.stream.Collectors;
 
 public class QuizCraftServer {
@@ -20,6 +27,13 @@ public class QuizCraftServer {
     private static final String DATA_DIR = "resources/data";
 
     public static void main(String[] args) throws IOException {
+        // Ensure data exists
+        File dataDir = new File(DATA_DIR);
+        if (!dataDir.exists() || dataDir.listFiles() == null || dataDir.listFiles().length == 0) {
+            System.out.println("📦  Initializing quiz data...");
+            QuizDataGenerator.generateInitialData();
+        }
+
         HttpServer server = HttpServer.create(new InetSocketAddress(PORT), 0);
 
         // Static files handler
