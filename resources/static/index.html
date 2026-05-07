@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz App</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="minecraft-bg"></div>
+    <div class="app-container">
+        <header>
+            <h1 class="pixel-text">Quiz<span>Craft</span></h1>
+            <p class="pixel-text">Survive the questions, build your knowledge.</p>
+            
+            <div class="nav-tabs">
+                <button class="tab-btn active" id="tab-take">Take a Quiz</button>
+                <button class="tab-btn" id="tab-build">Build a Quiz</button>
+            </div>
+        </header>
+
+        <main>
+            <!-- TAKE QUIZ MODE -->
+            <section id="take-mode" class="mode-section">
+                
+                <!-- Category Selection Screen -->
+                <div id="category-selection" class="card">
+                    <h2>Select a Category to Start</h2>
+                    <div class="category-grid">
+                        <button class="category-card" data-category="Science">
+                            <span class="icon">
+                                <svg width="48" height="48" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated;">
+                                    <path d="M6 1H10V3H9V9L13 13V15H3V13L7 9V3H6V1Z" fill="#3f3f3f"/>
+                                    <path d="M7 2H9V9.5L5 13.5V14H11V13.5L7 9.5V2Z" fill="#55FFFF"/>
+                                </svg>
+                            </span>
+                            <h3 class="pixel-text">Science</h3>
+                        </button>
+                        <button class="category-card" data-category="History">
+                            <span class="icon">
+                                <svg width="48" height="48" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated;">
+                                    <path d="M3 2H13V14H3V2Z" fill="#EAD5B0"/>
+                                    <path d="M2 3V13H3V3H2ZM13 3V13H14V3H13ZM3 2V3H13V2H3ZM3 13V14H13V13H3Z" fill="#3f3f3f"/>
+                                    <path d="M5 5H11V6H5V5ZM5 8H11V9H5V8ZM5 11H9V12H5V11Z" fill="#3f3f3f" opacity="0.5"/>
+                                </svg>
+                            </span>
+                            <h3 class="pixel-text">History</h3>
+                        </button>
+                        <button class="category-card" data-category="Coding">
+                            <span class="icon">
+                                <svg width="48" height="48" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated;">
+                                    <path d="M1 11H15V15H1V11Z" fill="#7e7e7e"/>
+                                    <path d="M3 12H5V14H3V12ZM11 12H13V14H11V12Z" fill="#FF5555"/>
+                                    <path d="M4 11V3H5V11H4ZM12 11V3H13V11H12Z" fill="#3f3f3f"/>
+                                </svg>
+                            </span>
+                            <h3 class="pixel-text">Coding</h3>
+                        </button>
+                        <button class="category-card" data-category="Maths">
+                            <span class="icon">
+                                <svg width="48" height="48" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated;">
+                                    <path d="M3 5H13V6H3V5ZM3 10H13V11H3V10ZM7 3H9V13H7V3Z" fill="#3f3f3f" opacity="0.3"/>
+                                    <path d="M8 4V12M4 8H12" stroke="#3f3f3f" stroke-width="2"/>
+                                </svg>
+                            </span>
+                            <h3 class="pixel-text">Maths</h3>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Active Quiz Player -->
+                <div id="quiz-player" class="card hidden">
+                    <div class="player-header">
+                        <button id="exit-quiz-btn" class="icon-btn" title="Exit to Menu">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 3L4 9V21H9V14H15V21H20V9L12 3Z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                        <h2 id="player-quiz-title" class="pixel-text">Quiz Title</h2>
+                        <span class="progress-badge pixel-text" id="player-progress">1/5</span>
+                    </div>
+                    
+                    <div class="health-bar-container">
+                        <div id="health-hearts" class="hearts">
+                            <!-- Hearts injected here -->
+                        </div>
+                    </div>
+                    
+                    <div class="question-container">
+                        <h3 id="player-question-text" class="question-text-large">Question text?</h3>
+                        <div id="player-options" class="options-grid">
+                            <!-- Options injected here -->
+                        </div>
+                    </div>
+                    
+                    <div class="player-actions">
+                        <button id="player-next-btn" class="btn btn-primary hidden">Next Question ➔</button>
+                    </div>
+                </div>
+
+                <!-- Quiz Score View -->
+                <div id="quiz-score" class="card hidden text-center">
+                    <h2 id="quiz-result-title" class="pixel-text">Quiz Completed! 🎉</h2>
+                    <div class="score-circle">
+                        <span id="final-score" class="pixel-text">0/0</span>
+                    </div>
+                    <p id="score-message" class="pixel-text">Great job!</p>
+                    <button id="back-to-categories-btn" class="btn btn-primary mt-4 pixel-text">Take Another Quiz</button>
+                </div>
+
+                <!-- Game Over Screen -->
+                <div id="game-over" class="card hidden text-center game-over-card">
+                    <h1 class="pixel-text death-text">YOU DIED!</h1>
+                    <p class="pixel-text">Your hearts have been depleted.</p>
+                    <div class="score-summary mt-4">
+                        <p class="pixel-text">Final Score: <span id="game-over-score">0</span></p>
+                    </div>
+                    <button id="respawn-btn" class="btn btn-primary mt-4 pixel-text">Respawn</button>
+                </div>
+
+            </section>
+
+            <!-- BUILD QUIZ MODE (Existing) -->
+            <section id="build-mode" class="mode-section hidden">
+                <section class="quiz-meta-section card">
+                    <h2>Quiz Details</h2>
+                    <div class="input-group">
+                        <label for="quiz-title">Title</label>
+                        <input type="text" id="quiz-title" placeholder="e.g., General Knowledge Quiz" required>
+                    </div>
+                    <div class="input-group">
+                        <label class="pixel-text" style="color:#000">Category</label>
+                        <div class="category-selector">
+                            <label class="category-pill">
+                                <input type="radio" name="quiz-category" value="Science" checked>
+                                <span class="pill-content">
+                                    <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; margin-right: 8px;">
+                                        <path d="M6 1H10V3H9V9L13 13V15H3V13L7 9V3H6V1Z" fill="#3f3f3f"/>
+                                        <path d="M7 2H9V9.5L5 13.5V14H11V13.5L7 9.5V2Z" fill="#55FFFF"/>
+                                    </svg>
+                                    Science
+                                </span>
+                            </label>
+                            <label class="category-pill">
+                                <input type="radio" name="quiz-category" value="History">
+                                <span class="pill-content">
+                                    <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; margin-right: 8px;">
+                                        <path d="M3 2H13V14H3V2Z" fill="#EAD5B0"/>
+                                        <path d="M2 3V13H3V3H2ZM13 3V13H14V3H13ZM3 2V3H13V2H3ZM3 13V14H13V13H3Z" fill="#3f3f3f"/>
+                                        <path d="M5 5H11V6H5V5ZM5 8H11V9H5V8ZM5 11H9V12H5V11Z" fill="#3f3f3f" opacity="0.5"/>
+                                    </svg>
+                                    History
+                                </span>
+                            </label>
+                            <label class="category-pill">
+                                <input type="radio" name="quiz-category" value="Coding">
+                                <span class="pill-content">
+                                    <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; margin-right: 8px;">
+                                        <path d="M1 11H15V15H1V11Z" fill="#7e7e7e"/>
+                                        <path d="M3 12H5V14H3V12ZM11 12H13V14H11V12Z" fill="#FF5555"/>
+                                        <path d="M4 11V3H5V11H4ZM12 11V3H13V11H12Z" fill="#3f3f3f"/>
+                                    </svg>
+                                    Coding
+                                </span>
+                            </label>
+                            <label class="category-pill">
+                                <input type="radio" name="quiz-category" value="Maths">
+                                <span class="pill-content">
+                                    <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; margin-right: 8px;">
+                                        <path d="M3 5H13V6H3V5ZM3 10H13V11H3V10ZM7 3H9V13H7V3Z" fill="#3f3f3f" opacity="0.3"/>
+                                        <path d="M8 4V12M4 8H12" stroke="#3f3f3f" stroke-width="2"/>
+                                    </svg>
+                                    Maths
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="quiz-desc">Description</label>
+                        <textarea id="quiz-desc" placeholder="A brief description of this quiz..." rows="3"></textarea>
+                    </div>
+                </section>
+
+                <section class="questions-section card">
+                    <div class="section-header">
+                        <h2>Questions</h2>
+                        <button id="add-question-btn" class="btn btn-secondary">+ Add Question</button>
+                    </div>
+                    
+                    <div id="questions-container">
+                        <!-- Questions will be injected here dynamically -->
+                    </div>
+                </section>
+
+                <div class="actions">
+                    <button id="save-quiz-btn" class="btn btn-primary">Save Quiz</button>
+                    <div id="status-message" class="hidden"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Template for a question block in builder -->
+    <template id="question-template">
+        <div class="question-block">
+            <div class="question-header">
+                <h3 class="question-number">Question</h3>
+                <button class="remove-question-btn" title="Remove Question">×</button>
+            </div>
+            <div class="input-group">
+                <input type="text" class="question-text" placeholder="Enter your question here..." required>
+            </div>
+            <div class="options-container">
+            </div>
+            <button class="add-option-btn btn btn-small btn-outline">+ Add Option</button>
+        </div>
+    </template>
+
+    <!-- Template for an option block in builder -->
+    <template id="option-template">
+        <div class="option-block">
+            <input type="radio" class="correct-option-radio" title="Mark as correct answer">
+            <input type="text" class="option-text" placeholder="Option text..." required>
+            <button class="remove-option-btn" title="Remove Option">×</button>
+        </div>
+    </template>
+
+    <script src="/js/script.js"></script>
+    <!-- Confirmation Modal -->
+    <div id="confirm-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <h3 class="pixel-text">Abandon Quiz?</h3>
+            <p>You will lose all progress in this world!</p>
+            <div class="modal-actions">
+                <button id="confirm-exit-btn" class="mc-btn secondary">Quit Game</button>
+                <button id="cancel-exit-btn" class="mc-btn">Stay</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

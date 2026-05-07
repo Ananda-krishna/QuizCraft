@@ -1,0 +1,1008 @@
+{
+  "id": "science-quiz-v3",
+  "title": "Science Mastery",
+  "category": "Science",
+  "description": "100 unique questions about Science.",
+  "questions": [
+    {
+      "text": "What is the powerhouse of the cell?",
+      "options": [
+        "Mitochondria",
+        "Nucleus",
+        "Ribosome",
+        "Cell Wall"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the chemical symbol for water?",
+      "options": [
+        "WA",
+        "H2O",
+        "HO2",
+        "OH"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What gas do plants absorb during photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Helium"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "How many planets are in our solar system?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Quartz"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which force pulls objects toward Earth?",
+      "options": [
+        "Friction",
+        "Magnetism",
+        "Gravity",
+        "Inertia"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the closest star to Earth?",
+      "options": [
+        "Sirius",
+        "Proxima Centauri",
+        "The Sun",
+        "Betelgeuse"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the boiling point of water in Celsius?",
+      "options": [
+        "90",
+        "100",
+        "110",
+        "120"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which planet is famous for its rings?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the center of an atom called?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Nucleus",
+        "Electron"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which gas makes up most of Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the largest mammal on Earth?",
+      "options": [
+        "Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Orca"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What do bees collect from flowers to make honey?",
+      "options": [
+        "Pollen",
+        "Leaves",
+        "Nectar",
+        "Water"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which planet is the largest in our solar system?",
+      "options": [
+        "Saturn",
+        "Neptune",
+        "Jupiter",
+        "Uranus"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the primary source of energy for Earth?",
+      "options": [
+        "The Moon",
+        "The Sun",
+        "Coal",
+        "Wind"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which part of the plant conducts photosynthesis?",
+      "options": [
+        "Roots",
+        "Stem",
+        "Flowers",
+        "Leaves"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What is the chemical symbol for Gold?",
+      "options": [
+        "Go",
+        "Gd",
+        "Au",
+        "Ag"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "How many bones are in an adult human body?",
+      "options": [
+        "206",
+        "106",
+        "306",
+        "406"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which organ pumps blood through the body?",
+      "options": [
+        "Lungs",
+        "Brain",
+        "Stomach",
+        "Heart"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What is the frozen form of water called?",
+      "options": [
+        "Steam",
+        "Vapor",
+        "Ice",
+        "Liquid"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which animal is known as the King of the Jungle?",
+      "options": [
+        "Tiger",
+        "Lion",
+        "Elephant",
+        "Leopard"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which part of the atom has a negative charge?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Nucleus"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the name of the galaxy we live in?",
+      "options": [
+        "Andromeda",
+        "Milky Way",
+        "Sombrero",
+        "Cartwheel"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which vitamin is produced when skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What is the smallest planet in our solar system?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Mercury",
+        "Pluto"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which instrument is used to measure temperature?",
+      "options": [
+        "Barometer",
+        "Thermometer",
+        "Hygrometer",
+        "Speedometer"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the chemical symbol for Iron?",
+      "options": [
+        "Ir",
+        "Fe",
+        "In",
+        "Io"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which organ is responsible for breathing?",
+      "options": [
+        "Heart",
+        "Liver",
+        "Lungs",
+        "Kidneys"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What type of animal is a frog?",
+      "options": [
+        "Mammal",
+        "Reptile",
+        "Amphibian",
+        "Bird"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which is the fastest land animal?",
+      "options": [
+        "Lion",
+        "Cheetah",
+        "Horse",
+        "Greyhound"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the first element on the periodic table?",
+      "options": [
+        "Oxygen",
+        "Helium",
+        "Hydrogen",
+        "Carbon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "How many states of matter are commonly recognized?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the name of the red pigment in blood?",
+      "options": [
+        "Chlorophyll",
+        "Hemoglobin",
+        "Melanin",
+        "Plasma"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which planet is known as the Evening Star?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Venus",
+        "Mercury"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the largest desert on Earth?",
+      "options": [
+        "Sahara",
+        "Gobi",
+        "Antarctica",
+        "Kalahari"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which part of the cell contains genetic material?",
+      "options": [
+        "Cytoplasm",
+        "Nucleus",
+        "Membrane",
+        "Wall"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the speed of light?",
+      "options": [
+        "300,000 km/s",
+        "150,000 km/s",
+        "500,000 km/s",
+        "1,000,000 km/s"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which metal is liquid at room temperature?",
+      "options": [
+        "Silver",
+        "Mercury",
+        "Copper",
+        "Iron"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which gas is needed for a fire to burn?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen",
+        "Oxygen"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What is the name of the force that resists motion?",
+      "options": [
+        "Gravity",
+        "Friction",
+        "Inertia",
+        "Velocity"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "How many colors are in a rainbow?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which planet is the hottest?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the study of fossils called?",
+      "options": [
+        "Biology",
+        "Geology",
+        "Paleontology",
+        "Zoology"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which organ removes toxins from the blood?",
+      "options": [
+        "Lungs",
+        "Liver",
+        "Stomach",
+        "Heart"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the most abundant element in the universe?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Hydrogen",
+        "Helium"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which planet is known as the 'Blue Planet'?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Neptune",
+        "Earth"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What do you call a rock that fell from space?",
+      "options": [
+        "Asteroid",
+        "Meteorite",
+        "Comet",
+        "Star"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which gas do we exhale most?",
+      "options": [
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the main component of the Sun?",
+      "options": [
+        "Iron",
+        "Oxygen",
+        "Hydrogen",
+        "Carbon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the scientific name for the voice box?",
+      "options": [
+        "Trachea",
+        "Larynx",
+        "Pharynx",
+        "Esophagus"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which planet has the most moons?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Neptune",
+        "Mars"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the unit of electric resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which part of the eye controls light entry?",
+      "options": [
+        "Retina",
+        "Iris",
+        "Lens",
+        "Cornea"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the boiling point of water in Fahrenheit?",
+      "options": [
+        "100",
+        "200",
+        "212",
+        "300"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which element is essential for bones?",
+      "options": [
+        "Iron",
+        "Sodium",
+        "Calcium",
+        "Zinc"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the name of the nearest galaxy?",
+      "options": [
+        "Milky Way",
+        "Andromeda",
+        "Triangulum",
+        "Centaurus"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which blood type is the universal donor?",
+      "options": [
+        "A+",
+        "B-",
+        "O-",
+        "AB+"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the chemical symbol for Sodium?",
+      "options": [
+        "So",
+        "Sd",
+        "Na",
+        "Ni"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which gas is produced by lightning?",
+      "options": [
+        "Ozone",
+        "Oxygen",
+        "Methane",
+        "Nitrogen"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "What is the largest cell in the human body?",
+      "options": [
+        "Sperm",
+        "Neuron",
+        "Egg cell",
+        "Skin cell"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which planet is farthest from the Sun?",
+      "options": [
+        "Uranus",
+        "Neptune",
+        "Saturn",
+        "Pluto"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the process of a liquid turning to gas?",
+      "options": [
+        "Melting",
+        "Freezing",
+        "Evaporation",
+        "Condensation"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which vitamin helps with blood clotting?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What is the name for the study of birds?",
+      "options": [
+        "Zoology",
+        "Ornithology",
+        "Entomology",
+        "Botany"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which metal is used in thermometers?",
+      "options": [
+        "Iron",
+        "Lead",
+        "Mercury",
+        "Tin"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the hardest bone in the human body?",
+      "options": [
+        "Skull",
+        "Femur",
+        "Jawbone",
+        "Rib"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which gas is used in light bulbs?",
+      "options": [
+        "Oxygen",
+        "Argon",
+        "Carbon",
+        "Helium"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the color of liquid oxygen?",
+      "options": [
+        "Clear",
+        "Pale blue",
+        "Pale green",
+        "Red"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which planet has a day longer than its year?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Mercury",
+        "Jupiter"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the pH of pure water?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which layer of the atmosphere contains the ozone layer?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "How many hearts does an octopus have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the lightest element?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Hydrogen",
+        "Lithium"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which animal is the fastest swimmer?",
+      "options": [
+        "Shark",
+        "Dolphin",
+        "Sailfish",
+        "Whale"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the common name for Sodium Chloride?",
+      "options": [
+        "Sugar",
+        "Salt",
+        "Baking Soda",
+        "Vinegar"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which planet rotates on its side?",
+      "options": [
+        "Uranus",
+        "Neptune",
+        "Saturn",
+        "Jupiter"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "What is the main gas in the Sun?",
+      "options": [
+        "Oxygen",
+        "Helium",
+        "Hydrogen",
+        "Carbon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which blood vessels carry blood away from the heart?",
+      "options": [
+        "Veins",
+        "Arteries",
+        "Capillaries",
+        "Nerves"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "How many elements are in the periodic table?",
+      "options": [
+        "108",
+        "118",
+        "128",
+        "98"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the basic unit of heredity?",
+      "options": [
+        "Cell",
+        "Gene",
+        "Atom",
+        "Molecule"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which bird can fly backwards?",
+      "options": [
+        "Eagle",
+        "Hummingbird",
+        "Owl",
+        "Parrot"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the largest land animal?",
+      "options": [
+        "Rhino",
+        "African Elephant",
+        "Hippo",
+        "Giraffe"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which gas is known as 'laughing gas'?",
+      "options": [
+        "Nitrogen",
+        "Nitrous Oxide",
+        "Carbon Monoxide",
+        "Helium"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "How many planets in our solar system have rings?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What is the freezing point of water in Celsius?",
+      "options": [
+        "-10",
+        "0",
+        "10",
+        "32"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which planet is known for the Great Red Spot?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the chemical symbol for Silver?",
+      "options": [
+        "Si",
+        "Sl",
+        "Ag",
+        "Au"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which part of the brain controls balance?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Brainstem",
+        "Thalamus"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the main source of Vitamin C?",
+      "options": [
+        "Meat",
+        "Bread",
+        "Citrus fruits",
+        "Dairy"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "How many lungs does a human have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the speed of sound?",
+      "options": [
+        "343 m/s",
+        "100 m/s",
+        "500 m/s",
+        "1000 m/s"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which planet is often called Earth's twin?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Mercury",
+        "Neptune"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the study of plants called?",
+      "options": [
+        "Biology",
+        "Botany",
+        "Zoology",
+        "Ecology"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which substance makes up most of the human body?",
+      "options": [
+        "Blood",
+        "Water",
+        "Fat",
+        "Muscle"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "How many teeth does an adult human have?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is the largest organ in the human body?",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Skin",
+        "Brain"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which animal has the largest eyes?",
+      "options": [
+        "Elephant",
+        "Colossal Squid",
+        "Owl",
+        "Whale"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is the chemical symbol for Helium?",
+      "options": [
+        "H",
+        "He",
+        "Hi",
+        "Ha"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which force keeps planets in orbit?",
+      "options": [
+        "Friction",
+        "Magnetism",
+        "Gravity",
+        "Electricity"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

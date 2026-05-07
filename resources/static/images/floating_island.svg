@@ -1,0 +1,64 @@
+<svg width="1000" height="1000" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Deep Sky / Space -->
+  <rect width="500" height="500" fill="#0A0F1E"/>
+  
+  <!-- Undersea Background -->
+  <rect y="250" width="500" height="250" fill="#0D2C54"/>
+  <path d="M0 500 L100 450 L200 480 L300 440 L400 470 L500 450 L500 500 Z" fill="#2E1A47"/> <!-- Purple seafloor -->
+
+  <!-- Distant Mountains -->
+  <path d="M50 250 L120 150 L190 250 Z" fill="#1B3A6B" opacity="0.6"/>
+  <path d="M300 250 L400 100 L500 250 Z" fill="#1B3A6B" opacity="0.6"/>
+
+  <!-- Water Surface Line -->
+  <rect y="248" width="500" height="4" fill="#40E0D0" opacity="0.8"/>
+
+  <!-- Floating Island Body -->
+  <!-- Above Water Part -->
+  <path d="M150 250 Q250 100 350 250" fill="#4B3621"/> <!-- Dirt base -->
+  <path d="M150 250 Q250 120 350 250" fill="#2E7D32"/> <!-- Grass cover -->
+  
+  <!-- Cave -->
+  <path d="M220 250 Q250 200 280 250" fill="#1A1A1A"/>
+  
+  <!-- Below Water Roots/Island Base -->
+  <path d="M150 250 Q250 450 350 250" fill="#2B1B0E"/>
+  <path d="M200 250 L250 400 L300 250" fill="#3E2723" opacity="0.5"/> <!-- Roots -->
+
+  <!-- Above Water Trees -->
+  <!-- Blue Tree (Left) -->
+  <rect x="100" y="220" width="8" height="30" fill="#3E2723"/>
+  <circle cx="104" cy="200" r="25" fill="#00CED1"/>
+  <circle cx="115" cy="190" r="20" fill="#40E0D0"/>
+
+  <!-- Green Top Tree -->
+  <rect x="240" y="160" width="10" height="60" fill="#3E2723"/>
+  <circle cx="245" cy="140" r="30" fill="#1B5E20"/>
+
+  <!-- Purple Bush -->
+  <circle cx="220" cy="230" r="15" fill="#7B1FA2"/>
+
+  <!-- Flying Creatures -->
+  <path d="M380 150 Q410 140 440 160" stroke="#40E0D0" stroke-width="3" fill="none"/> <!-- Whale/Fish 1 -->
+  <path d="M350 180 Q380 170 410 190" stroke="#00CED1" stroke-width="3" fill="none"/> <!-- Whale/Fish 2 -->
+
+  <!-- Undersea Details -->
+  <!-- Submarine -->
+  <rect x="420" y="350" width="25" height="12" rx="6" fill="#FFA000"/>
+  <circle cx="440" cy="356" r="3" fill="#333"/>
+
+  <!-- Coral/Seaweed -->
+  <path d="M380 440 Q390 400 400 440" stroke="#D32F2F" stroke-width="4" fill="none"/>
+  <path d="M80 440 Q70 410 60 440" stroke="#7B1FA2" stroke-width="4" fill="none"/>
+
+  <!-- Hanging Vines Under Island -->
+  <line x1="180" y1="250" x2="180" y2="300" stroke="#40E0D0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="220" y1="250" x2="220" y2="350" stroke="#40E0D0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="280" y1="250" x2="280" y2="320" stroke="#40E0D0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="320" y1="250" x2="320" y2="290" stroke="#40E0D0" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Clouds -->
+  <rect x="50" y="80" width="80" height="20" fill="white" opacity="0.7"/>
+  <rect x="350" y="50" width="100" height="25" fill="white" opacity="0.7"/>
+
+</svg>

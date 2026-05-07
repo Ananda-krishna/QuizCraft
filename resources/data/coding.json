@@ -1,0 +1,1008 @@
+{
+  "id": "coding-quiz-v3",
+  "title": "Coding Basics",
+  "category": "Coding",
+  "description": "100 unique questions about Coding.",
+  "questions": [
+    {
+      "text": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Multi Language",
+        "Hyper Tool Meta Logic",
+        "None"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is used for a paragraph in HTML?",
+      "options": [
+        "<p>",
+        "<div>",
+        "<span>",
+        "<br>"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "In Python, how do you print 'Hello'?",
+      "options": [
+        "echo 'Hello'",
+        "print('Hello')",
+        "console.log('Hello')",
+        "printf('Hello')"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which company made the Java language?",
+      "options": [
+        "Microsoft",
+        "Oracle (Sun)",
+        "Apple",
+        "Google"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is a 'string' in coding?",
+      "options": [
+        "A piece of thread",
+        "Sequence of characters",
+        "A number",
+        "A loop"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which symbol is used for ID in CSS?",
+      "options": [
+        ".",
+        "#",
+        "*",
+        "&"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is an 'array'?",
+      "options": [
+        "A function",
+        "A single variable",
+        "A collection of items",
+        "A loop"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'JS' short for?",
+      "options": [
+        "JavaSystem",
+        "JustScript",
+        "JavaScript",
+        "JointScript"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which tag is used for an image?",
+      "options": [
+        "<img>",
+        "<pic>",
+        "<image>",
+        "<src>"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "How do you start a for loop in Python?",
+      "options": [
+        "for i = 1 to 10",
+        "for i in range(10):",
+        "loop i to 10",
+        "while i < 10"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What does CSS stand for?",
+      "options": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which language is used for web behavior?",
+      "options": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is a 'bug' in coding?",
+      "options": [
+        "An insect",
+        "An error",
+        "A feature",
+        "A tool"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which tag is used for a list item?",
+      "options": [
+        "<ul>",
+        "<li>",
+        "<ol>",
+        "<list>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What does SQL stand for?",
+      "options": [
+        "Strong Query Language",
+        "Structured Query Language",
+        "Simple Query Language",
+        "Speed Query Language"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "In JS, which keyword declares a constant?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "def"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which symbol is used for multiplication in code?",
+      "options": [
+        "x",
+        "*",
+        "&",
+        "."
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is a 'boolean'?",
+      "options": [
+        "A number",
+        "A string",
+        "A true/false value",
+        "A decimal"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which tag creates a heading?",
+      "options": [
+        "<h>",
+        "<head>",
+        "<h1>",
+        "<title>"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'CMS' short for?",
+      "options": [
+        "Content Management System",
+        "Code Management System",
+        "Control Main System",
+        "Content Main Source"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which language is primarily for data science?",
+      "options": [
+        "PHP",
+        "Python",
+        "C++",
+        "Swift"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What does 'API' stand for?",
+      "options": [
+        "App Page Interface",
+        "Application Programming Interface",
+        "Advanced Program Info",
+        "App Program Init"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which bracket is used for arrays in JS?",
+      "options": [
+        "()",
+        "{}",
+        "[]",
+        "<>"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'IDE'?",
+      "options": [
+        "Integrated Dev Environment",
+        "Internal Data Entry",
+        "Init Dev Engine",
+        "Interface Data Entry"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which symbol is used for comments in JS?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'HTTP'?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "High Text Tool Path",
+        "Hyper Tool Transfer Page",
+        "High Transfer Tech Path"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is used for a line break?",
+      "options": [
+        "<lb>",
+        "<br>",
+        "<hr>",
+        "<break>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'OOP'?",
+      "options": [
+        "Object Oriented Programming",
+        "Only One Program",
+        "Object Only Path",
+        "Other One Program"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which keyword starts a function in Python?",
+      "options": [
+        "func",
+        "function",
+        "def",
+        "init"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is a 'loop'?",
+      "options": [
+        "A circle",
+        "Repeating code",
+        "An error",
+        "A variable"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which tag is used for a link?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<url>",
+        "<href>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What does 'URL' stand for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Unit Resource List",
+        "Universal Real Link",
+        "User Resource Link"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which symbol is used for 'not equal'?",
+      "options": [
+        "!=",
+        "==",
+        "==",
+        "><"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "What is 'JSON'?",
+      "options": [
+        "JavaScript Object Notation",
+        "Java System Object Now",
+        "JavaScript Online Now",
+        "Java Scripting Object"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag defines a table?",
+      "options": [
+        "<table>",
+        "<td>",
+        "<tr>",
+        "<th>"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "What is 'UI'?",
+      "options": [
+        "User Interface",
+        "User Info",
+        "Unit Interface",
+        "Unique Info"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which operator is for 'and' in JS?",
+      "options": [
+        "&",
+        "&&",
+        "AND",
+        "|"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'UX'?",
+      "options": [
+        "User Experience",
+        "User Extra",
+        "Unit Experience",
+        "Unique Extra"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for the document body?",
+      "options": [
+        "<head>",
+        "<body>",
+        "<html>",
+        "<main>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'git'?",
+      "options": [
+        "A game",
+        "Version control system",
+        "A language",
+        "A browser"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which symbol is for 'strictly equal' in JS?",
+      "options": [
+        "=",
+        "==",
+        "===",
+        "!=="
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is a 'variable'?",
+      "options": [
+        "A container for data",
+        "A type of code",
+        "An error",
+        "A constant"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for a button?",
+      "options": [
+        "<btn>",
+        "<input>",
+        "<button>",
+        "<click>"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'frontend'?",
+      "options": [
+        "Server side",
+        "Client side",
+        "Database side",
+        "Code side"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which language is used for styling apps?",
+      "options": [
+        "XML",
+        "CSS",
+        "JSON",
+        "Markdown"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'backend'?",
+      "options": [
+        "Server side",
+        "Client side",
+        "Visual side",
+        "Design side"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for a bold text?",
+      "options": [
+        "<b>",
+        "<bold>",
+        "<strong>",
+        "Both b and strong"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "text": "What is 'compiling'?",
+      "options": [
+        "Running code",
+        "Translating code to machine code",
+        "Writing code",
+        "Deleting code"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which symbol is for modulo (remainder)?",
+      "options": [
+        "/",
+        "\\",
+        "%",
+        "*"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'debugging'?",
+      "options": [
+        "Adding bugs",
+        "Finding and fixing errors",
+        "Writing code",
+        "Testing UI"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which tag is used for a division/container?",
+      "options": [
+        "<section>",
+        "<div>",
+        "<part>",
+        "<box>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'SSL'?",
+      "options": [
+        "Secure Sockets Layer",
+        "Secure System Logic",
+        "Server Side Logic",
+        "System Side Layer"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which language is used for iOS apps?",
+      "options": [
+        "Java",
+        "Swift",
+        "C#",
+        "Kotlin"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'MVC'?",
+      "options": [
+        "Model View Controller",
+        "Main View Code",
+        "Model Variable Code",
+        "Main Variable Controller"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which symbol is for 'or' in JS?",
+      "options": [
+        "&",
+        "||",
+        "OR",
+        "!"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'SEO'?",
+      "options": [
+        "Search Engine Optimization",
+        "Site Engine Option",
+        "Search Extra Order",
+        "Site Extra Order"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for a script?",
+      "options": [
+        "<js>",
+        "<script>",
+        "<code>",
+        "<action>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'AJAX'?",
+      "options": [
+        "Asynchronous JS and XML",
+        "Async Java and XML",
+        "Action JS and XML",
+        "Asynchronous Java Action"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which keyword defines a class in JS?",
+      "options": [
+        "object",
+        "class",
+        "def",
+        "struct"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'RAM'?",
+      "options": [
+        "Random Access Memory",
+        "Read Access Main",
+        "Read All Memory",
+        "Random All Memory"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for a stylesheet link?",
+      "options": [
+        "<style>",
+        "<link>",
+        "<css>",
+        "<head>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'responsive design'?",
+      "options": [
+        "Design for fast loading",
+        "Design for all screens",
+        "Design for colors",
+        "Design for fonts"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which symbol is used for 'greater than'?",
+      "options": [
+        ">",
+        "<",
+        "!",
+        "="
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "What is 'npm'?",
+      "options": [
+        "Node Package Manager",
+        "Net Package Manager",
+        "Node Program Main",
+        "None of these"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for an unordered list?",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'DOM'?",
+      "options": [
+        "Document Object Model",
+        "Data Object Model",
+        "Document Online Main",
+        "Data Online Main"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which property changes text color in CSS?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "background-color"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'SASS'?",
+      "options": [
+        "A CSS preprocessor",
+        "A JS framework",
+        "A database",
+        "A server"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for a form?",
+      "options": [
+        "<input>",
+        "<form>",
+        "<submit>",
+        "<select>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'framework'?",
+      "options": [
+        "A type of loop",
+        "Pre-written code structure",
+        "An error",
+        "A browser"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which property sets font size in CSS?",
+      "options": [
+        "text-size",
+        "font-size",
+        "size",
+        "font-style"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'SQL injection'?",
+      "options": [
+        "A security threat",
+        "A type of code",
+        "A database tool",
+        "An error"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'API endpoint'?",
+      "options": [
+        "A URL",
+        "A variable",
+        "A loop",
+        "An error"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which property adds space inside an element?",
+      "options": [
+        "margin",
+        "padding",
+        "border",
+        "spacing"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'GitHub'?",
+      "options": [
+        "A language",
+        "A host for git repositories",
+        "A browser",
+        "A search engine"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which tag is for a text input?",
+      "options": [
+        "<text>",
+        "<input type='text'>",
+        "<textarea>",
+        "<string>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'open source'?",
+      "options": [
+        "Private code",
+        "Code free to use/modify",
+        "Paid code",
+        "Secret code"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which property adds space outside an element?",
+      "options": [
+        "padding",
+        "margin",
+        "border",
+        "spacing"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'Markdown'?",
+      "options": [
+        "A database",
+        "A lightweight markup language",
+        "A JS framework",
+        "A styling tool"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which tag is for a drop-down list?",
+      "options": [
+        "<list>",
+        "<dropdown>",
+        "<select>",
+        "<input>"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'CLI'?",
+      "options": [
+        "Command Line Interface",
+        "Code Line Interface",
+        "Command List Info",
+        "Code List Info"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which CSS property makes text bold?",
+      "options": [
+        "font-bold",
+        "text-bold",
+        "font-weight",
+        "weight"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'V8'?",
+      "options": [
+        "An engine for JS",
+        "A car",
+        "A CSS tool",
+        "A database"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for the largest heading?",
+      "options": [
+        "<h6>",
+        "<h0>",
+        "<h1>",
+        "<big>"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'minification'?",
+      "options": [
+        "Making code smaller",
+        "Making code bigger",
+        "Deleting code",
+        "Hiding code"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which property sets the background color?",
+      "options": [
+        "bg-color",
+        "background-color",
+        "color",
+        "fill"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'NaN'?",
+      "options": [
+        "Not a Number",
+        "Now and Next",
+        "No and Never",
+        "Number and Name"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which tag is for an ordered list?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'Full Stack'?",
+      "options": [
+        "Only frontend",
+        "Only backend",
+        "Both front and backend",
+        "Neither"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "Which property sets the width of an element?",
+      "options": [
+        "size",
+        "width",
+        "breadth",
+        "box-size"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'cache'?",
+      "options": [
+        "Money",
+        "Temporary storage",
+        "A bug",
+        "A permanent file"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which tag is for a footer?",
+      "options": [
+        "<end>",
+        "<bottom>",
+        "<footer>",
+        "<base>"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "text": "What is 'CDN'?",
+      "options": [
+        "Content Delivery Network",
+        "Code Delivery Now",
+        "Content Data Network",
+        "Code Data Network"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which property changes the font family?",
+      "options": [
+        "text-font",
+        "font-family",
+        "font-style",
+        "family"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is '404'?",
+      "options": [
+        "Success code",
+        "Page not found error",
+        "Redirect code",
+        "Server error"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "Which tag is for a navigation bar?",
+      "options": [
+        "<navbar>",
+        "<nav>",
+        "<menu>",
+        "<header>"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'localhost'?",
+      "options": [
+        "Your own computer",
+        "The internet",
+        "A remote server",
+        "A database"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "text": "Which symbol is used for 'this' in Python?",
+      "options": [
+        "this",
+        "self",
+        "me",
+        "it"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "text": "What is 'W3C'?",
+      "options": [
+        "Web standards body",
+        "A game",
+        "A browser",
+        "A language"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

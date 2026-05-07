@@ -1,0 +1,338 @@
+<svg width="1920" height="1080" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering:pixelated">
+  <!-- Sky gradient -->
+  <rect width="960" height="540" fill="#4AA8E8"/>
+  <rect width="960" height="120" fill="#5BB8F0"/>
+
+  <!-- Distant Mountains -->
+  <polygon points="380,340 480,200 580,340" fill="#7B8EC2"/>
+  <polygon points="440,340 560,160 680,340" fill="#6678AA"/>
+  <polygon points="560,340 660,220 760,340" fill="#5568A0"/>
+  <polygon points="700,340 780,250 860,340" fill="#4A5E96"/>
+  <!-- Snow caps -->
+  <polygon points="480,200 460,240 500,240" fill="#E8EEF8" opacity="0.6"/>
+  <polygon points="560,160 530,210 590,210" fill="#E8EEF8" opacity="0.6"/>
+
+  <!-- Clouds -->
+  <!-- Cloud 1 (large, right) -->
+  <rect x="520" y="60" width="160" height="50" rx="10" fill="white" opacity="0.95"/>
+  <rect x="540" y="40" width="100" height="40" rx="10" fill="white" opacity="0.95"/>
+  <rect x="580" y="30" width="60" height="30" rx="10" fill="white" opacity="0.95"/>
+  <rect x="500" y="70" width="40" height="30" rx="8" fill="white" opacity="0.9"/>
+  <rect x="680" y="65" width="30" height="30" rx="8" fill="white" opacity="0.9"/>
+
+  <!-- Cloud 2 (small, left) -->
+  <rect x="100" y="50" width="100" height="35" rx="8" fill="white" opacity="0.9"/>
+  <rect x="120" y="35" width="60" height="30" rx="8" fill="white" opacity="0.9"/>
+
+  <!-- Cloud 3 (medium, center) -->
+  <rect x="300" y="80" width="80" height="30" rx="8" fill="white" opacity="0.85"/>
+  <rect x="310" y="65" width="50" height="25" rx="8" fill="white" opacity="0.85"/>
+
+  <!-- Small pixel cloud (from second image) -->
+  <rect x="770" y="100" width="60" height="20" rx="6" fill="white" opacity="0.8"/>
+  <rect x="780" y="88" width="30" height="18" rx="6" fill="white" opacity="0.8"/>
+  <rect x="820" y="92" width="15" height="14" rx="4" fill="#D8ECFF" opacity="0.6"/>
+
+  <!-- Birds (small V shapes) -->
+  <path d="M400 80 L405 75 L410 80" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M430 65 L435 60 L440 65" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M720 50 L725 45 L730 50" stroke="#333" stroke-width="2" fill="none"/>
+
+  <!-- Forest background (dense bushes behind everything) -->
+  <ellipse cx="200" cy="310" rx="60" ry="50" fill="#2E7D32"/>
+  <ellipse cx="280" cy="320" rx="50" ry="40" fill="#388E3C"/>
+  <ellipse cx="350" cy="300" rx="65" ry="55" fill="#1B6E20"/>
+  <ellipse cx="430" cy="310" rx="55" ry="45" fill="#2E7D32"/>
+  <ellipse cx="500" cy="320" rx="60" ry="40" fill="#388E3C"/>
+  <ellipse cx="570" cy="305" rx="50" ry="50" fill="#256D28"/>
+  <ellipse cx="640" cy="315" rx="55" ry="45" fill="#2E7D32"/>
+  <ellipse cx="710" cy="310" rx="60" ry="50" fill="#1B6E20"/>
+  <ellipse cx="780" cy="320" rx="50" ry="40" fill="#388E3C"/>
+  <ellipse cx="850" cy="310" rx="60" ry="50" fill="#2E7D32"/>
+  <ellipse cx="130" cy="315" rx="55" ry="45" fill="#256D28"/>
+  <ellipse cx="60" cy="320" rx="60" ry="40" fill="#2E7D32"/>
+
+  <!-- Lighter forest layer -->
+  <ellipse cx="250" cy="330" rx="40" ry="30" fill="#43A047"/>
+  <ellipse cx="400" cy="325" rx="50" ry="35" fill="#4CAF50"/>
+  <ellipse cx="550" cy="330" rx="45" ry="30" fill="#43A047"/>
+  <ellipse cx="680" cy="325" rx="50" ry="35" fill="#4CAF50"/>
+
+  <!-- Tree trunks visible above forest -->
+  <!-- Tree trunk 1 -->
+  <rect x="240" y="280" width="16" height="60" fill="#5D4037"/>
+  <rect x="242" y="280" width="6" height="60" fill="#6D4C41"/>
+  <!-- Tree canopy 1 -->
+  <ellipse cx="248" cy="260" rx="40" ry="35" fill="#2E7D32"/>
+  <ellipse cx="260" cy="250" rx="30" ry="28" fill="#388E3C"/>
+  <ellipse cx="235" cy="255" rx="25" ry="22" fill="#43A047"/>
+
+  <!-- Tree trunk 2 -->
+  <rect x="380" y="270" width="14" height="70" fill="#5D4037"/>
+  <rect x="382" y="270" width="5" height="70" fill="#6D4C41"/>
+  <!-- Tree canopy 2 -->
+  <ellipse cx="387" cy="248" rx="35" ry="32" fill="#1B6E20"/>
+  <ellipse cx="395" cy="240" rx="28" ry="25" fill="#2E7D32"/>
+
+  <!-- Pine tree (from second image) -->
+  <rect x="610" y="300" width="10" height="45" fill="#5D4037"/>
+  <polygon points="615,240 575,310 655,310" fill="#1B6E20"/>
+  <polygon points="615,260 585,310 645,310" fill="#2E7D32"/>
+  <polygon points="615,280 595,315 635,315" fill="#388E3C"/>
+
+  <!-- HOUSE (left side) -->
+  <!-- House body -->
+  <rect x="30" y="290" width="160" height="100" fill="#6D4C41"/>
+  <rect x="35" y="295" width="150" height="90" fill="#795548"/>
+  <!-- Wood plank lines -->
+  <line x1="30" y1="310" x2="190" y2="310" stroke="#5D4037" stroke-width="2"/>
+  <line x1="30" y1="330" x2="190" y2="330" stroke="#5D4037" stroke-width="2"/>
+  <line x1="30" y1="350" x2="190" y2="350" stroke="#5D4037" stroke-width="2"/>
+  <line x1="30" y1="370" x2="190" y2="370" stroke="#5D4037" stroke-width="2"/>
+
+  <!-- Red tiled roof -->
+  <polygon points="15,290 205,290 110,230" fill="#D32F2F"/>
+  <polygon points="15,290 205,290 110,235" fill="#E53935"/>
+  <!-- Roof tile lines -->
+  <line x1="60" y1="280" x2="110" y2="240" stroke="#B71C1C" stroke-width="2"/>
+  <line x1="110" y1="280" x2="110" y2="240" stroke="#B71C1C" stroke-width="2"/>
+  <line x1="155" y1="280" x2="110" y2="240" stroke="#B71C1C" stroke-width="2"/>
+  <line x1="35" y1="287" x2="185" y2="287" stroke="#B71C1C" stroke-width="2"/>
+  <line x1="55" y1="275" x2="165" y2="275" stroke="#B71C1C" stroke-width="2"/>
+  <line x1="70" y1="263" x2="150" y2="263" stroke="#B71C1C" stroke-width="2"/>
+
+  <!-- Door -->
+  <rect x="90" y="340" width="35" height="50" fill="#3E2723"/>
+  <rect x="93" y="343" width="29" height="44" fill="#4E342E"/>
+  <rect x="115" y="360" width="5" height="5" rx="2" fill="#FFD700"/>
+
+  <!-- Windows -->
+  <rect x="45" y="310" width="30" height="25" fill="#81D4FA" stroke="#3E2723" stroke-width="3"/>
+  <line x1="60" y1="310" x2="60" y2="335" stroke="#3E2723" stroke-width="2"/>
+  <line x1="45" y1="323" x2="75" y2="323" stroke="#3E2723" stroke-width="2"/>
+
+  <rect x="145" y="310" width="30" height="25" fill="#81D4FA" stroke="#3E2723" stroke-width="3"/>
+  <line x1="160" y1="310" x2="160" y2="335" stroke="#3E2723" stroke-width="2"/>
+  <line x1="145" y1="323" x2="175" y2="323" stroke="#3E2723" stroke-width="2"/>
+
+  <!-- MUSHROOM TOWER -->
+  <rect x="170" y="160" width="40" height="180" fill="#D7CCC8"/>
+  <rect x="175" y="160" width="12" height="180" fill="#BCAAA4"/>
+  <rect x="195" y="160" width="8" height="180" fill="#A1887F"/>
+  <!-- Tower windows -->
+  <rect x="180" y="220" width="15" height="15" rx="7" fill="#5D4037" stroke="#3E2723" stroke-width="2"/>
+  <rect x="180" y="260" width="15" height="15" rx="7" fill="#5D4037" stroke="#3E2723" stroke-width="2"/>
+  <!-- Mushroom cap -->
+  <ellipse cx="190" cy="160" rx="45" ry="35" fill="#E53935"/>
+  <ellipse cx="190" cy="155" rx="40" ry="28" fill="#F44336"/>
+  <!-- Cap spots -->
+  <circle cx="170" cy="150" r="6" fill="white"/>
+  <circle cx="195" cy="138" r="8" fill="white"/>
+  <circle cx="215" cy="148" r="5" fill="white"/>
+  <circle cx="180" cy="165" r="4" fill="white"/>
+  <circle cx="205" cy="162" r="5" fill="white"/>
+
+  <!-- GROUND LAYERS -->
+  <!-- Grass layer -->
+  <rect y="388" width="960" height="12" fill="#55CC55"/>
+  <rect y="388" width="960" height="6" fill="#66DD66"/>
+  
+  <!-- Hanging Vines (over stone wall) -->
+  <rect x="20" y="400" width="4" height="20" fill="#2E7D32"/>
+  <rect x="24" y="400" width="4" height="12" fill="#388E3C"/>
+  <rect x="80" y="400" width="4" height="30" fill="#2E7D32"/>
+  <rect x="84" y="400" width="4" height="15" fill="#388E3C"/>
+  <rect x="150" y="400" width="4" height="25" fill="#2E7D32"/>
+  <rect x="154" y="400" width="4" height="10" fill="#388E3C"/>
+  <rect x="220" y="400" width="4" height="35" fill="#2E7D32"/>
+  <rect x="224" y="400" width="4" height="20" fill="#388E3C"/>
+  <rect x="300" y="400" width="4" height="15" fill="#2E7D32"/>
+  <rect x="304" y="400" width="4" height="25" fill="#388E3C"/>
+  <rect x="400" y="400" width="4" height="40" fill="#2E7D32"/>
+  <rect x="404" y="400" width="4" height="20" fill="#388E3C"/>
+  <rect x="550" y="400" width="4" height="15" fill="#2E7D32"/>
+  <rect x="680" y="400" width="4" height="30" fill="#2E7D32"/>
+  <rect x="750" y="400" width="4" height="20" fill="#2E7D32"/>
+  <rect x="820" y="400" width="4" height="35" fill="#2E7D32"/>
+  <rect x="900" y="400" width="4" height="25" fill="#2E7D32"/>
+  
+  <!-- Grass blades (individual pixelated grass tufts) -->
+  <rect x="10" y="382" width="4" height="8" fill="#66DD66"/>
+  <rect x="18" y="384" width="3" height="6" fill="#55CC55"/>
+  <rect x="30" y="380" width="4" height="10" fill="#77EE77"/>
+  <rect x="50" y="383" width="3" height="7" fill="#66DD66"/>
+  <rect x="65" y="381" width="4" height="9" fill="#55CC55"/>
+  <rect x="80" y="384" width="3" height="6" fill="#77EE77"/>
+  <rect x="100" y="380" width="4" height="10" fill="#66DD66"/>
+  <rect x="120" y="383" width="3" height="7" fill="#55CC55"/>
+  <rect x="140" y="381" width="4" height="9" fill="#77EE77"/>
+  <rect x="160" y="384" width="3" height="6" fill="#66DD66"/>
+  <rect x="200" y="380" width="4" height="10" fill="#55CC55"/>
+  <rect x="230" y="383" width="3" height="7" fill="#77EE77"/>
+  <rect x="260" y="381" width="4" height="9" fill="#66DD66"/>
+  <rect x="290" y="384" width="3" height="6" fill="#55CC55"/>
+  <rect x="320" y="380" width="4" height="10" fill="#77EE77"/>
+  <rect x="350" y="383" width="3" height="7" fill="#66DD66"/>
+  <rect x="400" y="381" width="4" height="9" fill="#55CC55"/>
+  <rect x="450" y="380" width="4" height="10" fill="#77EE77"/>
+  <rect x="500" y="383" width="3" height="7" fill="#66DD66"/>
+  <rect x="550" y="381" width="4" height="9" fill="#55CC55"/>
+  <rect x="600" y="384" width="3" height="6" fill="#77EE77"/>
+  <rect x="650" y="380" width="4" height="10" fill="#66DD66"/>
+  <rect x="700" y="383" width="3" height="7" fill="#55CC55"/>
+  <rect x="750" y="381" width="4" height="9" fill="#77EE77"/>
+  <rect x="800" y="384" width="3" height="6" fill="#66DD66"/>
+  <rect x="850" y="380" width="4" height="10" fill="#55CC55"/>
+  <rect x="900" y="383" width="3" height="7" fill="#77EE77"/>
+  <rect x="940" y="381" width="4" height="9" fill="#66DD66"/>
+
+  <!-- Stone/brick ground layer -->
+  <rect y="400" width="960" height="140" fill="#5D4037"/>
+  <!-- Stone rows -->
+  <rect y="400" width="960" height="4" fill="#4E342E"/>
+  <!-- Brick pattern row 1 -->
+  <rect x="0" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="60" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="120" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="180" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="240" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="300" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="360" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="420" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="480" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="540" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="600" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="660" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="720" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="780" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="840" y="404" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="900" y="404" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <!-- Brick pattern row 2 (offset) -->
+  <rect x="-30" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="30" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="90" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="150" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="210" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="270" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="330" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="390" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="450" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="510" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="570" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="630" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="690" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="750" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="810" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="870" y="432" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="930" y="432" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <!-- Brick pattern row 3 -->
+  <rect x="0" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="60" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="120" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="180" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="240" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="300" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="360" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="420" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="480" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="540" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="600" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="660" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="720" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="780" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+  <rect x="840" y="460" width="60" height="28" fill="#6D4C41" stroke="#4E342E" stroke-width="2"/>
+  <rect x="900" y="460" width="60" height="28" fill="#795548" stroke="#4E342E" stroke-width="2"/>
+
+  <!-- FOREGROUND OBJECTS FROM SECOND IMAGE -->
+
+  <!-- Wooden Fence (right side) -->
+  <rect x="650" y="355" width="8" height="35" fill="#795548"/>
+  <rect x="680" y="355" width="8" height="35" fill="#795548"/>
+  <rect x="710" y="355" width="8" height="35" fill="#795548"/>
+  <rect x="645" y="362" width="78" height="6" fill="#8D6E63"/>
+  <rect x="645" y="375" width="78" height="6" fill="#8D6E63"/>
+
+  <!-- Round bush 1 (from second image) -->
+  <ellipse cx="320" cy="380" rx="30" ry="20" fill="#2E7D32"/>
+  <ellipse cx="320" cy="375" rx="25" ry="16" fill="#388E3C"/>
+  <ellipse cx="315" cy="372" rx="12" ry="10" fill="#43A047"/>
+
+  <!-- Round bush 2 -->
+  <ellipse cx="480" cy="378" rx="25" ry="18" fill="#1B6E20"/>
+  <ellipse cx="480" cy="374" rx="20" ry="14" fill="#2E7D32"/>
+
+  <!-- Small bush cluster -->
+  <ellipse cx="760" cy="382" rx="20" ry="14" fill="#2E7D32"/>
+  <ellipse cx="775" cy="380" rx="15" ry="12" fill="#388E3C"/>
+
+  <!-- Grass tufts (from second image) -->
+  <rect x="270" y="382" width="3" height="8" fill="#388E3C"/>
+  <rect x="275" y="380" width="3" height="10" fill="#43A047"/>
+  <rect x="280" y="383" width="3" height="7" fill="#2E7D32"/>
+
+  <rect x="530" y="381" width="3" height="9" fill="#388E3C"/>
+  <rect x="535" y="379" width="3" height="11" fill="#43A047"/>
+  <rect x="540" y="382" width="3" height="8" fill="#2E7D32"/>
+
+  <!-- Red mushrooms on the ground -->
+  <rect x="250" y="383" width="3" height="7" fill="#D7CCC8"/>
+  <ellipse cx="251" cy="381" rx="8" ry="5" fill="#E53935"/>
+  <circle cx="248" cy="380" r="2" fill="white"/>
+  <circle cx="255" cy="379" r="1.5" fill="white"/>
+
+  <rect x="555" y="384" width="3" height="6" fill="#D7CCC8"/>
+  <ellipse cx="556" cy="382" rx="6" ry="4" fill="#E53935"/>
+  <circle cx="554" cy="381" r="1.5" fill="white"/>
+
+  <!-- Blue mushroom (from second image) -->
+  <rect x="430" y="383" width="4" height="7" fill="#D7CCC8"/>
+  <ellipse cx="432" cy="381" rx="10" ry="7" fill="#42A5F5"/>
+  <ellipse cx="432" cy="379" rx="7" ry="4" fill="#64B5F6"/>
+  <circle cx="428" cy="378" r="2" fill="white" opacity="0.6"/>
+
+  <!-- White daisy flowers (from second image) -->
+  <rect x="340" y="383" width="2" height="7" fill="#388E3C"/>
+  <circle cx="341" cy="380" r="5" fill="white"/>
+  <circle cx="341" cy="380" r="2" fill="#FFD700"/>
+
+  <rect x="820" y="384" width="2" height="6" fill="#388E3C"/>
+  <circle cx="821" cy="381" r="4" fill="white"/>
+  <circle cx="821" cy="381" r="1.5" fill="#FFD700"/>
+
+  <!-- Blue flower (from second image) -->
+  <rect x="590" y="383" width="2" height="7" fill="#388E3C"/>
+  <rect x="585" y="380" width="4" height="4" fill="#388E3C"/>
+  <circle cx="591" cy="378" r="5" fill="#42A5F5"/>
+  <circle cx="591" cy="378" r="2" fill="#64B5F6"/>
+
+  <!-- Wooden log (from second image) -->
+  <rect x="470" y="384" width="40" height="12" rx="4" fill="#6D4C41"/>
+  <rect x="472" y="386" width="36" height="8" rx="3" fill="#795548"/>
+  <ellipse cx="470" cy="390" rx="6" ry="6" fill="#5D4037"/>
+  <ellipse cx="470" cy="390" rx="4" ry="4" fill="#8D6E63"/>
+  <circle cx="470" cy="390" r="2" fill="#6D4C41"/>
+
+  <!-- Question block (from second image, gold) -->
+  <rect x="850" y="300" width="35" height="35" fill="#FFB300" stroke="#E65100" stroke-width="3"/>
+  <rect x="855" y="305" width="25" height="25" fill="#FFC107"/>
+  <text x="862" y="325" fill="#E65100" font-size="20" font-weight="bold" font-family="monospace">?</text>
+
+  <!-- Right side tree (large, from first image) -->
+  <rect x="890" y="280" width="20" height="110" fill="#5D4037"/>
+  <rect x="893" y="280" width="8" height="110" fill="#6D4C41"/>
+  <ellipse cx="900" cy="240" rx="55" ry="60" fill="#1B6E20"/>
+  <ellipse cx="910" cy="230" rx="40" ry="45" fill="#2E7D32"/>
+  <ellipse cx="895" cy="250" rx="35" ry="30" fill="#388E3C"/>
+
+  <!-- Small snail (from second image) -->
+  <ellipse cx="745" cy="390" rx="8" ry="5" fill="#8D6E63"/>
+  <ellipse cx="742" cy="388" rx="5" ry="5" fill="#A1887F"/>
+  <circle cx="742" cy="387" r="3" fill="#795548"/>
+  <rect x="748" y="385" width="2" height="4" fill="#5D4037"/>
+  <circle cx="749" cy="384" r="1.5" fill="#333"/>
+
+  <!-- Small lemon/fruit (from second image) -->
+  <ellipse cx="410" cy="390" rx="8" ry="7" fill="#FFD600"/>
+  <ellipse cx="410" cy="388" rx="6" ry="5" fill="#FFEE58"/>
+  <rect x="408" y="382" width="3" height="4" fill="#388E3C"/>
+</svg>

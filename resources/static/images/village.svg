@@ -1,0 +1,49 @@
+<svg width="1920" height="1080" viewBox="0 0 480 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="480" height="270" fill="#87CEEB"/>
+  
+  <!-- Clouds -->
+  <rect x="40" y="30" width="60" height="20" fill="white" opacity="0.6"/>
+  <rect x="200" y="50" width="80" height="25" fill="white" opacity="0.6"/>
+  <rect x="350" y="20" width="50" height="15" fill="white" opacity="0.6"/>
+
+  <!-- Sun -->
+  <rect x="400" y="40" width="30" height="30" fill="#FFFF00"/>
+
+  <!-- Ground Layers -->
+  <rect y="180" width="480" height="90" fill="#352922"/> <!-- Dirt -->
+  <rect y="176" width="480" height="4" fill="#55FF55"/> <!-- Grass -->
+
+  <!-- Village House 1 -->
+  <rect x="50" y="136" width="40" height="40" fill="#7e7e7e"/> <!-- Walls -->
+  <rect x="45" y="126" width="50" height="10" fill="#373737"/> <!-- Roof -->
+  <rect x="65" y="156" width="10" height="20" fill="#352922"/> <!-- Door -->
+  <rect x="55" y="145" width="8" height="8" fill="#87CEEB" stroke="#373737" stroke-width="1"/> <!-- Window -->
+
+  <!-- Tree 1 -->
+  <rect x="120" y="146" width="6" height="30" fill="#352922"/> <!-- Trunk -->
+  <rect x="110" y="116" width="26" height="30" fill="#00AA00"/> <!-- Leaves -->
+
+  <!-- Village House 2 (Large) -->
+  <rect x="180" y="116" width="60" height="60" fill="#c6c6c6"/> <!-- Walls -->
+  <rect x="175" y="106" width="70" height="10" fill="#373737"/> <!-- Roof -->
+  <rect x="205" y="146" width="10" height="30" fill="#352922"/> <!-- Door -->
+  <rect x="190" y="125" width="10" height="10" fill="#87CEEB" stroke="#373737" stroke-width="1"/> 
+  <rect x="220" y="125" width="10" height="10" fill="#87CEEB" stroke="#373737" stroke-width="1"/>
+
+  <!-- Farm -->
+  <rect x="260" y="170" width="60" height="6" fill="#1a1a1a"/> <!-- Soil -->
+  <rect x="265" y="165" width="2" height="5" fill="#FFFF55"/> <!-- Wheat -->
+  <rect x="275" y="165" width="2" height="5" fill="#FFFF55"/>
+  <rect x="285" y="165" width="2" height="5" fill="#FFFF55"/>
+  <rect x="295" y="165" width="2" height="5" fill="#FFFF55"/>
+  <rect x="305" y="165" width="2" height="5" fill="#FFFF55"/>
+
+  <!-- Tree 2 -->
+  <rect x="360" y="136" width="6" height="40" fill="#352922"/> <!-- Trunk -->
+  <rect x="350" y="106" width="26" height="30" fill="#00AA00"/> <!-- Leaves -->
+
+  <!-- Path -->
+  <rect y="180" width="480" height="10" fill="#7e7e7e" opacity="0.3"/> <!-- Gravel path look -->
+
+</svg>
