@@ -50,7 +50,7 @@ public class QuizDataGenerator {
 
         // --- MEDIUM (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("Science Medium Question " + i + ": What is the " + i + "th element on the periodic table?", 
+            questions.add(new Question("What is the " + i + "th element on the periodic table?", 
                 Arrays.asList("Option A", "Option B", "Correct Answer", "Option D"), 2, "Medium"));
         }
         // Adding real ones too
@@ -59,7 +59,7 @@ public class QuizDataGenerator {
 
         // --- HARD (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("Science Hard Question " + i + ": Advanced theory regarding " + i + " units.", 
+            questions.add(new Question("Advanced theory regarding " + i + " units.", 
                 Arrays.asList("Hypothesis A", "Correct Solution", "Theory C", "Law D"), 1, "Hard"));
         }
         questions.add(new Question("What is the speed of light in a vacuum?", Arrays.asList("300,000 km/s", "150,000 km/s", "299,792 km/s", "1,000,000 km/s"), 2, "Hard"));
@@ -78,13 +78,13 @@ public class QuizDataGenerator {
 
         // --- MEDIUM (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("History Medium Question " + i + ": Major event in century " + (15+i/10) + ".", 
+            questions.add(new Question("Major event in century " + (15+i/10) + ".", 
                 Arrays.asList("Event X", "Correct Event", "Event Y", "Event Z"), 1, "Medium"));
         }
 
         // --- HARD (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("History Hard Question " + i + ": Obscure detail about the " + i + "th dynasty.", 
+            questions.add(new Question("Obscure detail about the " + i + "th dynasty.", 
                 Arrays.asList("Wrong Detail", "Another Wrong", "Correct Detail", "False Info"), 2, "Hard"));
         }
 
@@ -102,13 +102,13 @@ public class QuizDataGenerator {
 
         // --- MEDIUM (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("Coding Medium Question " + i + ": What does this " + i + "th operator do?", 
+            questions.add(new Question("What does this " + i + "th operator do?", 
                 Arrays.asList("Option A", "Correct Answer", "Option C", "Option D"), 1, "Medium"));
         }
 
         // --- HARD (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("Coding Hard Question " + i + ": Complex algorithm for " + i + " nodes.", 
+            questions.add(new Question("Complex algorithm for " + i + " nodes.", 
                 Arrays.asList("O(n)", "O(log n)", "O(n^2)", "Correct Complexity"), 3, "Hard"));
         }
 
@@ -126,13 +126,13 @@ public class QuizDataGenerator {
 
         // --- MEDIUM (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("Maths Medium Question " + i + ": Solve for x where " + i + "x = " + (i*5) + ".", 
+            questions.add(new Question("Solve for x where " + i + "x = " + (i*5) + ".", 
                 Arrays.asList("3", "4", "5", "6"), 2, "Medium"));
         }
 
         // --- HARD (30 Questions) ---
         for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("Maths Hard Question " + i + ": Calculus derivative of x^" + i + ".", 
+            questions.add(new Question("Calculus derivative of x^" + i + ".", 
                 Arrays.asList("Wrong", "Correct Answer", "Wrong Again", "False"), 1, "Hard"));
         }
 
