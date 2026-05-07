@@ -131,10 +131,36 @@ public class QuizDataGenerator {
         }
 
         // --- HARD (30 Questions) ---
-        for (int i = 1; i <= 30; i++) {
-            questions.add(new Question("Calculus derivative of x^" + i + ".", 
-                Arrays.asList("Wrong", "Correct Answer", "Wrong Again", "False"), 1, "Hard"));
-        }
+        questions.add(new Question("What is the derivative of sin(x)?", Arrays.asList("cos(x)", "-cos(x)", "tan(x)", "sin(x)"), 0, "Hard"));
+        questions.add(new Question("Solve for x: log10(x) = 2", Arrays.asList("10", "20", "100", "200"), 2, "Hard"));
+        questions.add(new Question("What is the value of pi to 4 decimal places?", Arrays.asList("3.1415", "3.1416", "3.1414", "3.1417"), 1, "Hard"));
+        questions.add(new Question("What is the integral of 1/x dx?", Arrays.asList("x^2", "ln|x| + C", "e^x", "1"), 1, "Hard"));
+        questions.add(new Question("In a right triangle, if a=3 and b=4, what is c?", Arrays.asList("5", "6", "7", "25"), 0, "Hard"));
+        questions.add(new Question("What is the sum of angles in a hexagon?", Arrays.asList("360", "540", "720", "900"), 2, "Hard"));
+        questions.add(new Question("Solve: 2^x = 64", Arrays.asList("4", "5", "6", "7"), 2, "Hard"));
+        questions.add(new Question("What is the square root of 225?", Arrays.asList("13", "14", "15", "16"), 2, "Hard"));
+        questions.add(new Question("Value of cos(0)?", Arrays.asList("0", "1", "-1", "0.5"), 1, "Hard"));
+        questions.add(new Question("What is 15% of 200?", Arrays.asList("20", "25", "30", "35"), 2, "Hard"));
+        questions.add(new Question("What is the area of a circle with radius 7? (use pi=22/7)", Arrays.asList("154", "44", "49", "144"), 0, "Hard"));
+        questions.add(new Question("If 3x + 5 = 20, what is x?", Arrays.asList("4", "5", "6", "7"), 1, "Hard"));
+        questions.add(new Question("What is the cube root of 27?", Arrays.asList("2", "3", "4", "9"), 1, "Hard"));
+        questions.add(new Question("What is the value of 5! (factorial)?", Arrays.asList("60", "100", "120", "150"), 2, "Hard"));
+        questions.add(new Question("How many degrees in a straight line?", Arrays.asList("90", "180", "270", "360"), 1, "Hard"));
+        questions.add(new Question("What is the median of {1, 3, 3, 6, 7, 8, 9}?", Arrays.asList("3", "6", "7", "8"), 1, "Hard"));
+        questions.add(new Question("If a=5 and b=12 in a right triangle, c=?", Arrays.asList("13", "14", "15", "17"), 0, "Hard"));
+        questions.add(new Question("What is the slope of y = 3x + 4?", Arrays.asList("3", "4", "x", "y"), 0, "Hard"));
+        questions.add(new Question("What is the value of e (approx)?", Arrays.asList("2.718", "3.142", "1.414", "1.732"), 0, "Hard"));
+        questions.add(new Question("Solve: x^2 - 9 = 0", Arrays.asList("3", "-3", "3 and -3", "0"), 2, "Hard"));
+        questions.add(new Question("What is the next prime number after 13?", Arrays.asList("15", "17", "19", "21"), 1, "Hard"));
+        questions.add(new Question("What is 1000 divided by 8?", Arrays.asList("120", "125", "130", "150"), 1, "Hard"));
+        questions.add(new Question("Area of triangle with base 10 and height 5?", Arrays.asList("25", "50", "15", "100"), 0, "Hard"));
+        questions.add(new Question("What is binary 1010 in decimal?", Arrays.asList("8", "10", "12", "14"), 1, "Hard"));
+        questions.add(new Question("What is the value of tan(45)?", Arrays.asList("0", "0.5", "1", "undefined"), 2, "Hard"));
+        questions.add(new Question("Volume of a cube with side 4?", Arrays.asList("16", "32", "64", "128"), 2, "Hard"));
+        questions.add(new Question("What is the probability of flipping 2 heads?", Arrays.asList("0.5", "0.25", "0.75", "1"), 1, "Hard"));
+        questions.add(new Question("What is the range of y = sin(x)?", Arrays.asList("0 to 1", "-1 to 1", "-inf to inf", "0 to inf"), 1, "Hard"));
+        questions.add(new Question("Solve: sqrt(x) = 12", Arrays.asList("12", "144", "24", "120"), 1, "Hard"));
+        questions.add(new Question("What is the interior angle of a square?", Arrays.asList("45", "90", "180", "360"), 1, "Hard"));
 
         return new Quiz("maths-quiz-java", "Mathematics", "Maths", "Arithmetic, Algebra, and Calculus.", questions);
     }
