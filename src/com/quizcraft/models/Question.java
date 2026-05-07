@@ -6,14 +6,15 @@ public class Question {
     private String text;
     private List<String> options;
     private int correctOptionIndex;
+    private String difficulty; // Added difficulty field
 
-    public Question(String text, List<String> options, int correctOptionIndex) {
+    public Question(String text, List<String> options, int correctOptionIndex, String difficulty) {
         this.text = text;
         this.options = options;
         this.correctOptionIndex = correctOptionIndex;
+        this.difficulty = difficulty;
     }
 
-    // JSON-like serialization (minimalist for zero-dependency approach)
     public String toJson() {
         StringBuilder sb = new StringBuilder();
         sb.append("{");
@@ -24,7 +25,8 @@ public class Question {
             if (i < options.size() - 1) sb.append(",");
         }
         sb.append("],");
-        sb.append("\"correctOptionIndex\": ").append(correctOptionIndex);
+        sb.append("\"correctOptionIndex\": ").append(correctOptionIndex).append(",");
+        sb.append("\"difficulty\": \"").append(difficulty).append("\"");
         sb.append("}");
         return sb.toString();
     }
@@ -38,4 +40,5 @@ public class Question {
     public String getText() { return text; }
     public List<String> getOptions() { return options; }
     public int getCorrectOptionIndex() { return correctOptionIndex; }
+    public String getDifficulty() { return difficulty; }
 }

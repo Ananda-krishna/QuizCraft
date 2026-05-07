@@ -68,6 +68,32 @@
                         </button>
                     </div>
                 </div>
+                
+                <!-- Difficulty Selection Screen -->
+                <div id="difficulty-selection" class="card hidden">
+                    <div class="selection-header">
+                        <button id="back-to-categories-btn-header" class="icon-btn" title="Back to Categories">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                        <h2 class="pixel-text">Select Difficulty</h2>
+                    </div>
+                    <div class="difficulty-options">
+                        <button class="difficulty-btn easy" data-difficulty="Easy">
+                            <span class="diff-title pixel-text">EASY</span>
+                            <span class="diff-desc">Relaxed pace, fundamental questions.</span>
+                        </button>
+                        <button class="difficulty-btn medium" data-difficulty="Medium">
+                            <span class="diff-title pixel-text">NORMAL</span>
+                            <span class="diff-desc">A fair challenge for curious minds.</span>
+                        </button>
+                        <button class="difficulty-btn hard" data-difficulty="Hard">
+                            <span class="diff-title pixel-text">HARDCORE</span>
+                            <span class="diff-desc">Expect the unexpected. Survival is unlikely.</span>
+                        </button>
+                    </div>
+                </div>
 
                 <!-- Active Quiz Player -->
                 <div id="quiz-player" class="card hidden">

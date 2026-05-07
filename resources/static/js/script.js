@@ -8,12 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // ---- Quiz Taker Elements ----
     const categoryCards = document.querySelectorAll('.category-card');
     const categorySelection = document.getElementById('category-selection');
+    const difficultySelection = document.getElementById('difficulty-selection');
     const quizPlayer = document.getElementById('quiz-player');
     const quizScoreView = document.getElementById('quiz-score');
     const gameOverView = document.getElementById('game-over');
     const healthHearts = document.getElementById('health-hearts');
     const respawnBtn = document.getElementById('respawn-btn');
     const gameOverScoreEl = document.getElementById('game-over-score');
+    const difficultyBtns = document.querySelectorAll('.difficulty-btn');
+    const backToCategoriesBtnHeader = document.getElementById('back-to-categories-btn-header');
     
     const playerQuizTitle = document.getElementById('player-quiz-title');
     const playerProgress = document.getElementById('player-progress');
@@ -41,10 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ---- State ----
     let activeQuiz = null;
+    let fullQuestionPool = [];
     let currentQuestionIndex = 0;
     let score = 0;
     let currentHealth = 10;
     const maxHealth = 10;
+    let selectedCategory = '';
+    let selectedDifficulty = '';
 
     // ---- 1. Tab Navigation & Modal Logic ----
     tabTake.addEventListener('click', () => switchTab('take'));
@@ -61,6 +67,12 @@ document.addEventListener('DOMContentLoaded', () => {
     confirmExitBtn.addEventListener('click', () => {
         confirmModal.classList.add('hidden');
         quizPlayer.classList.add('hidden');
+        difficultySelection.classList.add('hidden');
+        categorySelection.classList.remove('hidden');
+    });
+
+    backToCategoriesBtnHeader.addEventListener('click', () => {
+        difficultySelection.classList.add('hidden');
         categorySelection.classList.remove('hidden');
     });
 
@@ -93,8 +105,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const quizzes = await response.json();
             
             if (quizzes.length > 0) {
-                // Pick 10 random questions from the full pool
-                startQuiz(quizzes[0]);
+                selectedCategory = category;
+                fullQuestionPool = quizzes[0].questions;
+                
+                // Show difficulty selection
+                categorySelection.classList.add('hidden');
+                difficultySelection.classList.remove('hidden');
             } else {
                 alert(`No quizzes found for category: ${category}. Build one first!`);
             }
@@ -102,6 +118,20 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error fetching quiz:', error);
         }
     }
+
+    difficultyBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            selectedDifficulty = btn.dataset.difficulty;
+            const filteredQuestions = fullQuestionPool.filter(q => q.difficulty === selectedDifficulty);
+            
+            if (filteredQuestions.length === 0) {
+                alert(`No ${selectedDifficulty} questions found for this category!`);
+                return;
+            }
+            
+            startQuiz(filteredQuestions);
+        });
+    });
 
     function shuffleAndPick(arr, n) {
         // Fisher-Yates shuffle then slice
@@ -113,23 +143,23 @@ document.addEventListener('DOMContentLoaded', () => {
         return copy.slice(0, n);
     }
 
-    function startQuiz(quiz) {
-        // Clone quiz but with only 10 randomly picked questions
+    function startQuiz(questions) {
+        // Pick 10 random questions from the filtered pool
         activeQuiz = {
-            ...quiz,
-            questions: shuffleAndPick(quiz.questions, 10)
+            title: `${selectedCategory} - ${selectedDifficulty}`,
+            questions: shuffleAndPick(questions, 10)
         };
         currentQuestionIndex = 0;
         score = 0;
         currentHealth = maxHealth;
         renderHealth();
         
-        categorySelection.classList.add('hidden');
+        difficultySelection.classList.add('hidden');
         quizScoreView.classList.add('hidden');
         gameOverView.classList.add('hidden');
         quizPlayer.classList.remove('hidden');
         
-        playerQuizTitle.textContent = quiz.title;
+        playerQuizTitle.textContent = activeQuiz.title;
         loadQuestion();
     }
 
