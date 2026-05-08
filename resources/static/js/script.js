@@ -13,6 +13,24 @@ document.addEventListener('DOMContentLoaded', () => {
         userPhotoEl.style.display = 'block';
     }
 
+    // ---- Dropdown Logic ----
+    const profileInfo = document.querySelector('.profile-info');
+    const profileDropdown = document.getElementById('profile-dropdown');
+
+    if (profileInfo && profileDropdown) {
+        profileInfo.addEventListener('click', (e) => {
+            e.stopPropagation();
+            profileDropdown.classList.toggle('hidden');
+        });
+
+        // Close dropdown when clicking anywhere else
+        document.addEventListener('click', (e) => {
+            if (!profileDropdown.contains(e.target) && !profileInfo.contains(e.target)) {
+                profileDropdown.classList.add('hidden');
+            }
+        });
+    }
+
     // ---- Navigation Elements ----
     const tabTake = document.getElementById('tab-take');
     const tabBuild = document.getElementById('tab-build');
