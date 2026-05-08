@@ -984,7 +984,7 @@ input[type="text"]:focus + label, textarea:focus + label {
     background: transparent;
     border: none;
     padding: 0.8rem;
-    color: #333;
+    color: #AA0000; /* Red text by default */
     font-family: 'VT323', monospace;
     font-size: 1.4rem;
     text-align: left;
@@ -992,14 +992,16 @@ input[type="text"]:focus + label, textarea:focus + label {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    transition: all 0.1s;
 }
 
 .dropdown-item:hover {
-    background: #55FF55;
-    color: #000;
-    outline: 2px solid #00AA00;
+    background: #AA0000; /* Red background on hover */
+    color: #fff; /* White text on hover */
+    outline: 2px solid #550000;
 }
 
 .dropdown-item .icon {
     font-size: 1.2rem;
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.2));
 }
