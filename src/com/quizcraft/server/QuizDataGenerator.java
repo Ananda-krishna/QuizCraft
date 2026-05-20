@@ -14,6 +14,10 @@ public class QuizDataGenerator {
 
     private static final String DATA_DIR = "resources/data";
 
+    public static void main(String[] args) {
+        generateInitialData();
+    }
+
     public static void generateInitialData() {
         File dir = new File(DATA_DIR);
         if (!dir.exists()) dir.mkdirs();
@@ -81,36 +85,36 @@ public class QuizDataGenerator {
         questions.add(new Question("What is the chemical symbol for Potassium?", Arrays.asList("P", "Po", "K", "Pt"), 2, "Medium"));
 
         // --- HARD (30 Questions) ---
-        questions.add(new Question("What is the speed of light in a vacuum?", Arrays.asList("300,000 km/s", "150,000 km/s", "299,792 km/s", "1,000,000 km/s"), 2, "Hard"));
-        questions.add(new Question("What is the chemical formula for Sulfuric Acid?", Arrays.asList("H2SO3", "H2SO4", "HCl", "HNO3"), 1, "Hard"));
-        questions.add(new Question("Which scientist proposed the theory of General Relativity?", Arrays.asList("Newton", "Tesla", "Einstein", "Hawking"), 2, "Hard"));
-        questions.add(new Question("What is the absolute zero temperature in Celsius?", Arrays.asList("-100.5", "-273.15", "-300", "-250.25"), 1, "Hard"));
-        questions.add(new Question("What is the half-life of Carbon-14?", Arrays.asList("1,000 years", "5,730 years", "10,500 years", "2,500 years"), 1, "Hard"));
-        questions.add(new Question("Which particle in an atom has a negative charge?", Arrays.asList("Proton", "Neutron", "Electron", "Positron"), 2, "Hard"));
-        questions.add(new Question("What is the most electronegative element?", Arrays.asList("Oxygen", "Chlorine", "Fluorine", "Nitrogen"), 2, "Hard"));
-        questions.add(new Question("Who discovered Penicillin?", Arrays.asList("Louis Pasteur", "Alexander Fleming", "Marie Curie", "Gregor Mendel"), 1, "Hard"));
-        questions.add(new Question("What is the escape velocity from Earth?", Arrays.asList("5 km/s", "11.2 km/s", "25.5 km/s", "40.2 km/s"), 1, "Hard"));
-        questions.add(new Question("What is the primary gas found in the atmosphere of Venus?", Arrays.asList("Oxygen", "Nitrogen", "Carbon Dioxide", "Sulfur Dioxide"), 2, "Hard"));
-        questions.add(new Question("Which law states that for every action there is an equal and opposite reaction?", Arrays.asList("Newton's 1st Law", "Newton's 2nd Law", "Newton's 3rd Law", "Kepler's Law"), 2, "Hard"));
-        questions.add(new Question("What is the chemical symbol for Tungsten?", Arrays.asList("T", "Tu", "W", "Tg"), 2, "Hard"));
-        questions.add(new Question("How many heart chambers does a cockroach have?", Arrays.asList("2", "4", "12", "13"), 3, "Hard"));
-        questions.add(new Question("What is the value of the gravitational constant (G)?", Arrays.asList("9.81", "6.674e-11", "3.141", "1.602e-19"), 1, "Hard"));
-        questions.add(new Question("Which layer of the atmosphere contains the ozone layer?", Arrays.asList("Troposphere", "Stratosphere", "Mesosphere", "Exosphere"), 1, "Hard"));
-        questions.add(new Question("What is the process of converting a liquid to a gas called?", Arrays.asList("Sublimation", "Condensation", "Evaporation", "Freezing"), 2, "Hard"));
-        questions.add(new Question("Which element is used in nuclear reactors as fuel?", Arrays.asList("Uranium", "Plutonium", "Thorium", "All of these"), 3, "Hard"));
-        questions.add(new Question("What is the study of fossils called?", Arrays.asList("Archeology", "Paleontology", "Geology", "Anthropology"), 1, "Hard"));
-        questions.add(new Question("What is the pH level of pure water?", Arrays.asList("0", "5", "7", "14"), 2, "Hard"));
-        questions.add(new Question("Which noble gas is often used in lighting?", Arrays.asList("Helium", "Neon", "Argon", "Xenon"), 1, "Hard"));
-        questions.add(new Question("What is the name of the largest volcano in our solar system?", Arrays.asList("Mount Everest", "Mauna Kea", "Olympus Mons", "Vesuvius"), 2, "Hard"));
-        questions.add(new Question("What is the unit of frequency?", Arrays.asList("Joule", "Hertz", "Pascal", "Newton"), 1, "Hard"));
-        questions.add(new Question("Which organ is responsible for filtering blood in the human body?", Arrays.asList("Heart", "Lungs", "Kidneys", "Liver"), 2, "Hard"));
-        questions.add(new Question("What is the chemical formula for Glucose?", Arrays.asList("C6H12O6", "CO2", "CH4", "C2H5OH"), 0, "Hard"));
-        questions.add(new Question("What is the hardest known biological material?", Arrays.asList("Bone", "Wood", "Spider Silk", "Limpet Teeth"), 3, "Hard"));
-        questions.add(new Question("Which element has the highest melting point?", Arrays.asList("Iron", "Tungsten", "Carbon", "Platinum"), 1, "Hard"));
-        questions.add(new Question("What is the main source of energy for Earth's climate system?", Arrays.asList("Geothermal", "Lunar Gravitation", "Solar Radiation", "Ocean Currents"), 2, "Hard"));
-        questions.add(new Question("Which planet has the shortest day in our solar system?", Arrays.asList("Mercury", "Venus", "Jupiter", "Saturn"), 2, "Hard"));
-        questions.add(new Question("What is the charge of a neutron?", Arrays.asList("Positive", "Negative", "Neutral", "Variable"), 2, "Hard"));
-        questions.add(new Question("Who is considered the father of genetics?", Arrays.asList("Darwin", "Mendel", "Watson", "Crick"), 1, "Hard"));
+        questions.add(new Question("Which particle is proposed by the Standard Model to explain why some elementary particles have mass?", Arrays.asList("Higgs boson", "Graviton", "Photon", "Gluon"), 0, "Hard"));
+        questions.add(new Question("What is the primary product of the CNO cycle in stellar nucleosynthesis?", Arrays.asList("Helium-4", "Carbon-12", "Nitrogen-14", "Oxygen-16"), 0, "Hard"));
+        questions.add(new Question("Which law describes the relationship between the heat capacity of a solid and its vibrational modes at low temperatures?", Arrays.asList("Debye T^3 Law", "Dulong-Petit Law", "Einstein Solid Model", "Planck's Law"), 0, "Hard"));
+        questions.add(new Question("What organic functional group is characterized by a carbon atom double-bonded to an oxygen atom and single-bonded to a hydroxyl group?", Arrays.asList("Carboxylic acid", "Ester", "Ketone", "Aldehyde"), 0, "Hard"));
+        questions.add(new Question("In molecular biology, which enzyme is responsible for synthesizing short RNA sequences called primers during DNA replication?", Arrays.asList("Primase", "Helicase", "DNA Polymerase III", "Ligase"), 0, "Hard"));
+        questions.add(new Question("What is the main astronomical reference point for measuring right ascension?", Arrays.asList("Vernal Equinox", "Celestial North Pole", "Greenwich Meridian", "Ecliptic Pole"), 0, "Hard"));
+        questions.add(new Question("Which thermodynamic state function represents the maximum reversible work that can be performed by a system at constant temperature and pressure?", Arrays.asList("Gibbs Free Energy", "Helmholtz Free Energy", "Enthalpy", "Internal Energy"), 0, "Hard"));
+        questions.add(new Question("What type of gene mutation results in a premature stop codon in the transcribed mRNA?", Arrays.asList("Nonsense mutation", "Missense mutation", "Silent mutation", "Frameshift mutation"), 0, "Hard"));
+        questions.add(new Question("Which effect describes the shift in the spectral lines of an atom when subjected to an external electric field?", Arrays.asList("Stark effect", "Zeeman effect", "Raman effect", "Photoelectric effect"), 0, "Hard"));
+        questions.add(new Question("What is the primary geological mineral that makes up the bulk of the Earth's lower mantle?", Arrays.asList("Bridgmanite", "Ringwoodite", "Olivine", "Post-perovskite"), 0, "Hard"));
+        questions.add(new Question("Which class of organic compounds undergoes the Diels-Alder reaction?", Arrays.asList("Conjugated dienes and dienophiles", "Alcohols and carboxylic acids", "Ketones and primary amines", "Alkyl halides and nucleophiles"), 0, "Hard"));
+        questions.add(new Question("What is the term for the minimum energy required to remove an electron from the surface of a metal in the photoelectric effect?", Arrays.asList("Work function", "Ionization potential", "Fermi energy", "Binding energy"), 0, "Hard"));
+        questions.add(new Question("Which neurological pathway is primarily degenerated in patients with Parkinson's disease?", Arrays.asList("Nigrostriatal pathway", "Mesolimbic pathway", "Tuberoinfundibular pathway", "Mesocortical pathway"), 0, "Hard"));
+        questions.add(new Question("What quantum number determines the orientation of an orbital in space?", Arrays.asList("Magnetic quantum number (m_l)", "Azimuthal quantum number (l)", "Principal quantum number (n)", "Spin quantum number (m_s)"), 0, "Hard"));
+        questions.add(new Question("Which cosmological epoch refers to the period when the universe cooled enough for electrons to bind to protons, forming neutral hydrogen?", Arrays.asList("Recombination", "Nucleosynthesis", "Inflation", "Reionization"), 0, "Hard"));
+        questions.add(new Question("What is the correct IUPAC name for the simplest chiral alkane?", Arrays.asList("3-methylhexane", "2-methylbutane", "3-methylpentane", "2,3-dimethylbutane"), 0, "Hard"));
+        questions.add(new Question("In immunology, which class of antibody is secreted in pentameric form and is the first to respond during an primary infection?", Arrays.asList("IgM", "IgG", "IgA", "IgE"), 0, "Hard"));
+        questions.add(new Question("Which physical principle explains why a spinning top precesses instead of falling over?", Arrays.asList("Conservation of Angular Momentum", "Conservation of Linear Momentum", "Coriolis Force", "Centripetal Acceleration"), 0, "Hard"));
+        questions.add(new Question("Which complex in the mitochondrial electron transport chain is also part of the citric acid cycle (Krebs cycle)?", Arrays.asList("Complex II (Succinate dehydrogenase)", "Complex I (NADH dehydrogenase)", "Complex III (Cytochrome bc1)", "Complex IV (Cytochrome c oxidase)"), 0, "Hard"));
+        questions.add(new Question("What is the primary coordinate system used by astronomers to specify the positions of stars relative to the Earth's equator?", Arrays.asList("Equatorial coordinate system", "Ecliptic coordinate system", "Galactic coordinate system", "Horizontal coordinate system"), 0, "Hard"));
+        questions.add(new Question("Which mechanism explains the superconductivity of materials at extremely low temperatures via electron pairing?", Arrays.asList("BCS Theory", "Ginzburg-Landau Theory", "Hubbard Model", "London Equations"), 0, "Hard"));
+        questions.add(new Question("What type of intermolecular force is primarily responsible for the unique high boiling point of water?", Arrays.asList("Hydrogen bonding", "London dispersion forces", "Dipole-dipole interactions", "Ion-dipole forces"), 0, "Hard"));
+        questions.add(new Question("In biochemistry, what is the term for an inactive enzyme precursor that requires proteolytic cleavage to become active?", Arrays.asList("Zymogen", "Apoenzyme", "Coenzyme", "Holozyme"), 0, "Hard"));
+        questions.add(new Question("Which constant represents the quantization of electromagnetic radiation, relating a photon's energy to its frequency?", Arrays.asList("Planck's constant (h)", "Boltzmann's constant (k_B)", "Rydberg constant (R_inf)", "Fine-structure constant (alpha)"), 0, "Hard"));
+        questions.add(new Question("What is the name of the hypothetical boundary surrounding a black hole beyond which nothing can escape?", Arrays.asList("Event Horizon", "Ergosphere", "Schwarzschild Radius", "Photon Sphere"), 0, "Hard"));
+        questions.add(new Question("Which organic reaction converts a primary amide into a primary amine with one fewer carbon atom?", Arrays.asList("Hofmann rearrangement", "Curtius rearrangement", "Beckmann rearrangement", "Claisen condensation"), 0, "Hard"));
+        questions.add(new Question("What is the major structural protein found in animal connective tissues, characterized by a triple-helix structure?", Arrays.asList("Collagen", "Keratin", "Elastin", "Fibroin"), 0, "Hard"));
+        questions.add(new Question("Which mechanical quantity is defined as the rotational analog of mass, measuring an object's resistance to angular acceleration?", Arrays.asList("Moment of Inertia", "Torque", "Angular Momentum", "Rotational Kinetic Energy"), 0, "Hard"));
+        questions.add(new Question("Which region of the human brain is the primary site for the consolidation of short-term memory into long-term memory?", Arrays.asList("Hippocampus", "Amygdala", "Cerebellum", "Prefrontal Cortex"), 0, "Hard"));
+        questions.add(new Question("What is the term for the phase transition where a substance passes directly from the solid to the gaseous state without passing through the liquid state?", Arrays.asList("Sublimation", "Deposition", "Vaporization", "Condensation"), 0, "Hard"));
 
         return new Quiz("science-quiz-java", "Science Mastery", "Science", "Comprehensive science questions for all levels.", questions);
     }
@@ -157,36 +161,36 @@ public class QuizDataGenerator {
         questions.add(new Question("Who was the king of Macedon who created one of the largest empires of the ancient world?", Arrays.asList("Philip II", "Alexander the Great", "Pericles", "Leonidas"), 1, "Medium"));
 
         // --- HARD (30 Questions) ---
-        questions.add(new Question("The 21st Dynasty of Egypt was primarily based in which city?", Arrays.asList("Thebes", "Memphis", "Tanis", "Alexandria"), 2, "Hard"));
-        questions.add(new Question("In what year did the Byzantine Empire finally fall?", Arrays.asList("1453", "1492", "1204", "1517"), 0, "Hard"));
-        questions.add(new Question("Who was the first female Prime Minister of a sovereign nation?", Arrays.asList("Margaret Thatcher", "Indira Gandhi", "Sirimavo Bandaranaike", "Golda Meir"), 2, "Hard"));
-        questions.add(new Question("The Code of Hammurabi was the law code of which civilization?", Arrays.asList("Sumerian", "Assyrian", "Babylonian", "Persian"), 2, "Hard"));
-        questions.add(new Question("Which naval battle in 1571 halted Ottoman expansion in the Mediterranean?", Arrays.asList("Battle of Actium", "Battle of Lepanto", "Battle of Trafalgar", "Battle of Navarino"), 1, "Hard"));
-        questions.add(new Question("The 'Golden Bull' of 1356 was a decree issued by which empire?", Arrays.asList("Byzantine Empire", "Ottoman Empire", "Holy Roman Empire", "Russian Empire"), 2, "Hard"));
-        questions.add(new Question("Who was the last Tsar of Russia?", Arrays.asList("Alexander III", "Nicholas II", "Peter the Great", "Ivan the Terrible"), 1, "Hard"));
-        questions.add(new Question("The Opium Wars were fought between China and which other country?", Arrays.asList("France", "Russia", "Great Britain", "Japan"), 2, "Hard"));
-        questions.add(new Question("Which peace treaty ended the Thirty Years' War in 1648?", Arrays.asList("Peace of Utrecht", "Peace of Westphalia", "Treaty of Pyrenees", "Edict of Nantes"), 1, "Hard"));
-        questions.add(new Question("Who was the famous Carthaginian general who crossed the Alps with elephants?", Arrays.asList("Hamilcar Barca", "Hasdrubal", "Hannibal", "Scipio Africanus"), 2, "Hard"));
-        questions.add(new Question("The Battle of Hastings in 1066 saw the victory of which leader?", Arrays.asList("Harold Godwinson", "William the Conqueror", "Richard the Lionheart", "Edward the Confessor"), 1, "Hard"));
-        questions.add(new Question("Which ancient empire was led by Cyrus the Great?", Arrays.asList("Macedonian", "Egyptian", "Persian", "Roman"), 2, "Hard"));
-        questions.add(new Question("The Meiji Restoration occurred in which country?", Arrays.asList("China", "Korea", "Japan", "Thailand"), 2, "Hard"));
-        questions.add(new Question("Who was the Spanish conquistador who led the expedition that caused the fall of the Aztec Empire?", Arrays.asList("Francisco Pizarro", "Hernan Cortes", "Vasco de Balboa", "Juan Ponce de Leon"), 1, "Hard"));
-        questions.add(new Question("The War of the Roses was a series of dynastic civil wars in which country?", Arrays.asList("France", "Scotland", "England", "Wales"), 2, "Hard"));
-        questions.add(new Question("Which US President ordered the 'Trail of Tears'?", Arrays.asList("Andrew Jackson", "Martin Van Buren", "John Tyler", "James K. Polk"), 0, "Hard"));
-        questions.add(new Question("The Edict of Milan in 313 AD established religious tolerance for which group?", Arrays.asList("Jews", "Christians", "Muslims", "Pagans"), 1, "Hard"));
-        questions.add(new Question("Who was the first President of post-apartheid South Africa?", Arrays.asList("Desmond Tutu", "Nelson Mandela", "F.W. de Klerk", "Thabo Mbeki"), 1, "Hard"));
-        questions.add(new Question("The Boxer Rebellion took place in which country?", Arrays.asList("Japan", "Korea", "China", "India"), 2, "Hard"));
-        questions.add(new Question("Which philosopher was the tutor of Alexander the Great?", Arrays.asList("Socrates", "Plato", "Aristotle", "Epicurus"), 2, "Hard"));
-        questions.add(new Question("The Han Dynasty is known as a golden age for which civilization?", Arrays.asList("Indian", "Chinese", "Japanese", "Vietnamese"), 1, "Hard"));
-        questions.add(new Question("The Battle of Waterloo in 1815 marked the final defeat of which leader?", Arrays.asList("Louis XVI", "Napoleon Bonaparte", "Duke of Wellington", "Admiral Nelson"), 1, "Hard"));
-        questions.add(new Question("Who was the Mongolian leader who founded the Mongol Empire?", Arrays.asList("Kublai Khan", "Genghis Khan", "Tamerlane", "Hulagu Khan"), 1, "Hard"));
-        questions.add(new Question("The 'Iron Curtain' speech was given by which leader?", Arrays.asList("Roosevelt", "Truman", "Churchill", "Stalin"), 2, "Hard"));
-        questions.add(new Question("Which conference in 1945 divided Germany into occupation zones?", Arrays.asList("Tehran Conference", "Yalta Conference", "Potsdam Conference", "Casablanca Conference"), 1, "Hard"));
-        questions.add(new Question("The Reconquista was a series of campaigns to retake territory from the Moors in which region?", Arrays.asList("Italy", "Iberian Peninsula", "Balkans", "North Africa"), 1, "Hard"));
-        questions.add(new Question("Who was the king of France known as the 'Sun King'?", Arrays.asList("Louis XIV", "Louis XV", "Louis XVI", "Napoleon"), 0, "Hard"));
-        questions.add(new Question("The Great Leap Forward was a social and economic campaign in which country?", Arrays.asList("Soviet Union", "China", "North Korea", "Vietnam"), 1, "Hard"));
-        questions.add(new Question("Which explorer discovered the sea route to India around the Cape of Good Hope?", Arrays.asList("Christopher Columbus", "Vasco da Gama", "Bartolomeu Dias", "Ferdinand Magellan"), 1, "Hard"));
-        questions.add(new Question("The Peloponnesian War was fought between which two ancient Greek city-states?", Arrays.asList("Athens and Sparta", "Athens and Thebes", "Sparta and Corinth", "Thebes and Sparta"), 0, "Hard"));
+        questions.add(new Question("Which obscure treaty signed in 1494 divided the newly discovered lands outside Europe between Portugal and Castile?", Arrays.asList("Treaty of Tordesillas", "Treaty of Zaragoza", "Treaty of Alcáçovas", "Treaty of Westphalia"), 0, "Hard"));
+        questions.add(new Question("Who was the Byzantine emperor who survived the Nika Riots in 532 AD and commissioned the rebuilding of the Hagia Sophia?", Arrays.asList("Justinian I", "Constantine the Great", "Heraclius", "Basil II"), 0, "Hard"));
+        questions.add(new Question("Which Chinese dynasty was founded by Zhu Yuanzhang (the Hongwu Emperor) after the overthrow of the Mongol-led Yuan Dynasty?", Arrays.asList("Ming Dynasty", "Qing Dynasty", "Song Dynasty", "Tang Dynasty"), 0, "Hard"));
+        questions.add(new Question("The Battle of Lepanto in 1571 was fought between the Ottoman Empire and which coalition of Christian maritime states?", Arrays.asList("The Holy League", "The Hanseatic League", "The Protestant Union", "The Catholic League"), 0, "Hard"));
+        questions.add(new Question("Which 18th-century conflict is widely considered the first global war, fought across Europe, the Americas, and India?", Arrays.asList("The Seven Years' War", "The Thirty Years' War", "The War of the Spanish Succession", "The Napoleonic Wars"), 0, "Hard"));
+        questions.add(new Question("Who was the last ruling monarch of the Kingdom of Hawaii before the monarchy was overthrown in 1893?", Arrays.asList("Queen Liliuokalani", "King Kamehameha V", "Queen Kaahumanu", "King Kalakaua"), 0, "Hard"));
+        questions.add(new Question("Which peace treaty in 1648 recognized the independence of the Dutch Republic and the Swiss Confederation?", Arrays.asList("Peace of Westphalia", "Treaty of Utrecht", "Peace of Augsburg", "Treaty of Pyrenees"), 0, "Hard"));
+        questions.add(new Question("Which Roman general defeated Hannibal Barca at the Battle of Zama in 202 BC?", Arrays.asList("Scipio Africanus", "Julius Caesar", "Mark Antony", "Pompey the Great"), 0, "Hard"));
+        questions.add(new Question("The Meiji Restoration of 1868 returned practical imperial rule to Japan under Emperor Meiji, ending which military government?", Arrays.asList("Tokugawa Shogunate", "Kamakura Shogunate", "Ashikaga Shogunate", "Minamoto Clan"), 0, "Hard"));
+        questions.add(new Question("Who was the Spanish conquistador who led the conquest of the Inca Empire in Peru?", Arrays.asList("Francisco Pizarro", "Hernán Cortés", "Francisco de Orellana", "Diego de Almagro"), 0, "Hard"));
+        questions.add(new Question("Which dynastic conflict in England (1455-1487) was fought between the rival houses of Lancaster and York?", Arrays.asList("The Wars of the Roses", "The Hundred Years' War", "The English Civil War", "The Bishops' Wars"), 0, "Hard"));
+        questions.add(new Question("Which U.S. President signed the Indian Removal Act of 1830, leading to the forced displacement known as the 'Trail of Tears'?", Arrays.asList("Andrew Jackson", "Martin Van Buren", "John Quincy Adams", "James K. Polk"), 0, "Hard"));
+        questions.add(new Question("The Edict of Nantes (1598), which granted substantial rights to Calvinist Protestants (Huguenots) in France, was issued by which king?", Arrays.asList("Henry IV", "Louis XIV", "Francis I", "Louis XIII"), 0, "Hard"));
+        questions.add(new Question("Who was the prominent leader of the Haitian Revolution, a former slave who became a general and governor-general?", Arrays.asList("Toussaint Louverture", "Jean-Jacques Dessalines", "Henri Christophe", "Dutty Boukman"), 0, "Hard"));
+        questions.add(new Question("Which uprising in China (1899-1901) was an anti-foreign, anti-colonial, and anti-Christian movement supported by the Qing court?", Arrays.asList("The Boxer Rebellion", "The Taiping Rebellion", "The White Lotus Rebellion", "The Xinhai Revolution"), 0, "Hard"));
+        questions.add(new Question("Which ancient Greek philosopher and scientist was appointed as the tutor of a young Alexander the Great?", Arrays.asList("Aristotle", "Plato", "Socrates", "Diogenes"), 0, "Hard"));
+        questions.add(new Question("The Han Dynasty of China is widely considered a golden age, but it was briefly interrupted by which usurper's Xin Dynasty?", Arrays.asList("Wang Mang", "Cao Cao", "Liu Bang", "Sima Yi"), 0, "Hard"));
+        questions.add(new Question("At which battle in 1815 was the French Emperor Napoleon Bonaparte finally defeated by allied British and Prussian forces?", Arrays.asList("Battle of Waterloo", "Battle of Leipzig", "Battle of Austerlitz", "Battle of Trafalgar"), 0, "Hard"));
+        questions.add(new Question("Which Mongol leader successfully united the nomadic tribes of Northeast Asia and founded the Mongol Empire in 1206?", Arrays.asList("Genghis Khan", "Kublai Khan", "Ogedei Khan", "Hulagu Khan"), 0, "Hard"));
+        questions.add(new Question("Which famous speech delivered by Winston Churchill in Fulton, Missouri, in 1946 popularized the term 'Iron Curtain'?", Arrays.asList("Sinews of Peace", "We Shall Fight on the Beaches", "Their Finest Hour", "Blood, Toil, Tears, and Sweat"), 0, "Hard"));
+        questions.add(new Question("Which crucial conference in February 1945 saw Churchill, Roosevelt, and Stalin discuss the post-war reorganization of Germany and Europe?", Arrays.asList("Yalta Conference", "Potsdam Conference", "Tehran Conference", "Casablanca Conference"), 0, "Hard"));
+        questions.add(new Question("The 'Reconquista' was a centuries-long campaign to retake the Iberian Peninsula from Islamic rule, ending with the fall of which last emirate in 1492?", Arrays.asList("Emirate of Granada", "Caliphate of Córdoba", "Taifa of Seville", "Kingdom of Toledo"), 0, "Hard"));
+        questions.add(new Question("Which absolute monarch of France, known as the 'Sun King' (le Roi Soleil), built the Palace of Versailles and reigned for 72 years?", Arrays.asList("Louis XIV", "Louis XV", "Louis XVI", "Louis XIII"), 0, "Hard"));
+        questions.add(new Question("What was the name of the socio-economic campaign launched by Mao Zedong in China (1958-1962) that aimed to rapidly transform the country from an agrarian economy into a socialist society?", Arrays.asList("The Great Leap Forward", "The Cultural Revolution", "The Hundred Flowers Campaign", "The Socialist Education Movement"), 0, "Hard"));
+        questions.add(new Question("Which explorer commanded the first expedition that successfully sailed from Europe to India around the Cape of Good Hope?", Arrays.asList("Vasco da Gama", "Bartolomeu Dias", "Ferdinand Magellan", "Christopher Columbus"), 0, "Hard"));
+        questions.add(new Question("The Peloponnesian War (431-404 BC) was a devastating ancient Greek conflict fought primarily between which two prominent alliances led by rival city-states?", Arrays.asList("Athens and Sparta", "Athens and Thebes", "Sparta and Corinth", "Thebes and Sparta"), 0, "Hard"));
+        questions.add(new Question("Which Persian emperor founded the Achaemenid Empire and issued the famous Cyrus Cylinder, often called the first declaration of human rights?", Arrays.asList("Cyrus the Great", "Darius the Great", "Xerxes I", "Cambyses II"), 0, "Hard"));
+        questions.add(new Question("Which prime minister of the United Kingdom, serving during the mid-19th century, is known for repealing the Corn Laws and founding the modern Conservative Party?", Arrays.asList("Robert Peel", "Benjamin Disraeli", "William Gladstone", "Lord Palmerston"), 0, "Hard"));
+        questions.add(new Question("The ancient city of Carthage, a powerful rival of the Roman Republic in the Punic Wars, was located in what modern-day country?", Arrays.asList("Tunisia", "Algeria", "Morocco", "Libya"), 0, "Hard"));
+        questions.add(new Question("What was the name of the secret treaty signed in 1916 between the UK and France, with Russian assent, that defined their proposed spheres of influence in the Middle East after WW1?", Arrays.asList("Sykes-Picot Agreement", "Balfour Declaration", "Treaty of Sèvres", "McMahon-Hussein Correspondence"), 0, "Hard"));
 
         return new Quiz("history-quiz-java", "World History", "History", "Historical milestones and obscure facts.", questions);
     }
@@ -233,36 +237,36 @@ public class QuizDataGenerator {
         questions.add(new Question("In JavaScript, what is 'NaN'?", Arrays.asList("Not a Name", "Not a Number", "New and Null", "Null and Negative"), 1, "Medium"));
 
         // --- HARD (30 Questions) ---
-        questions.add(new Question("What is the time complexity of the QuickSort algorithm in the worst case?", Arrays.asList("O(n log n)", "O(n^2)", "O(n)", "O(log n)"), 1, "Hard"));
-        questions.add(new Question("Which design pattern ensures a class has only one instance?", Arrays.asList("Factory", "Observer", "Singleton", "Strategy"), 2, "Hard"));
-        questions.add(new Question("In Java, what is the difference between '==' and '.equals()' for Strings?", Arrays.asList("No difference", "== compares values, .equals() compares references", "== compares references, .equals() compares values", "== is for primitives only"), 2, "Hard"));
-        questions.add(new Question("What is a 'deadlock' in operating systems?", Arrays.asList("A crashed computer", "A process that never finishes", "A situation where processes wait forever for each other's resources", "A security breach"), 2, "Hard"));
-        questions.add(new Question("In C#, what is the purpose of the 'yield' keyword?", Arrays.asList("To stop a loop", "To return an element in an iterator", "To wait for a task", "To declare a constant"), 1, "Hard"));
-        questions.add(new Question("Which protocol is used by Git for secure communication?", Arrays.asList("HTTP", "FTP", "SSH", "Telnet"), 2, "Hard"));
-        questions.add(new Question("What is the maximum number of nodes in a binary tree of height h?", Arrays.asList("2h", "2^h", "2^(h+1) - 1", "h^2"), 2, "Hard"));
-        questions.add(new Question("In networking, what does CIDR stand for?", Arrays.asList("Classless Inter-Domain Routing", "Core Internet Data Routing", "Combined Internal Data Range", "Classed Internet Domain Record"), 0, "Hard"));
-        questions.add(new Question("Which sorting algorithm is stable and has O(n log n) time complexity?", Arrays.asList("QuickSort", "HeapSort", "MergeSort", "SelectionSort"), 2, "Hard"));
-        questions.add(new Question("What is the 'Big O' complexity of adding an element to the beginning of a Linked List?", Arrays.asList("O(1)", "O(n)", "O(log n)", "O(n^2)"), 0, "Hard"));
-        questions.add(new Question("In Python, what is a 'decorator'?", Arrays.asList("A GUI element", "A function that modifies another function", "A class attribute", "A type of list"), 1, "Hard"));
-        questions.add(new Question("What is the purpose of the 'volatile' keyword in Java?", Arrays.asList("To prevent serialization", "To ensure thread-safety of a variable", "To make a variable constant", "To speed up execution"), 1, "Hard"));
-        questions.add(new Question("Which HTTP status code represents 'Internal Server Error'?", Arrays.asList("403", "404", "500", "503"), 2, "Hard"));
-        questions.add(new Question("What is the primary difference between a 'Process' and a 'Thread'?", Arrays.asList("Threads share memory, processes don't", "Processes are faster", "Threads are independent applications", "There is no difference"), 0, "Hard"));
-        questions.add(new Question("In SQL, what is the purpose of a 'JOIN'?", Arrays.asList("To combine rows from two or more tables", "To delete data", "To group results", "To create a new table"), 0, "Hard"));
-        questions.add(new Question("What is the result of 0.1 + 0.2 === 0.3 in JavaScript?", Arrays.asList("true", "false", "undefined", "NaN"), 1, "Hard"));
-        questions.add(new Question("Which encryption algorithm is commonly used for secure web browsing (HTTPS)?", Arrays.asList("DES", "AES", "RSA", "MD5"), 2, "Hard"));
-        questions.add(new Question("In React, what is the purpose of 'useEffect'?", Arrays.asList("To style components", "To handle side effects", "To store state", "To navigate between pages"), 1, "Hard"));
-        questions.add(new Question("What is 'Race Condition' in concurrent programming?", Arrays.asList("Fastest process wins", "An error in the UI", "A situation where output depends on sequence of events", "A network delay"), 2, "Hard"));
-        questions.add(new Question("Which data structure is best for implementing a 'Undo' feature?", Arrays.asList("Queue", "Stack", "Tree", "Graph"), 1, "Hard"));
-        questions.add(new Question("In C, what is the size of an 'int' on a 64-bit system (usually)?", Arrays.asList("2 bytes", "4 bytes", "8 bytes", "16 bytes"), 1, "Hard"));
-        questions.add(new Question("What does the 'S' in 'SOLID' principles stand for?", Arrays.asList("Structural", "Single Responsibility", "Static", "Secure"), 1, "Hard"));
-        questions.add(new Question("Which database isolation level prevents 'Dirty Reads'?", Arrays.asList("Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"), 1, "Hard"));
-        questions.add(new Question("What is the time complexity of the Binary Search algorithm?", Arrays.asList("O(n)", "O(log n)", "O(n log n)", "O(1)"), 1, "Hard"));
-        questions.add(new Question("In Linux, which signal is sent by the 'kill -9' command?", Arrays.asList("SIGTERM", "SIGINT", "SIGKILL", "SIGHUP"), 2, "Hard"));
-        questions.add(new Question("What is the purpose of a 'Reverse Proxy'?", Arrays.asList("Caching", "Load Balancing", "Security", "All of these"), 3, "Hard"));
-        questions.add(new Question("Which data structure is typically used to implement a BFS (Breadth-First Search)?", Arrays.asList("Stack", "Queue", "Priority Queue", "Deque"), 1, "Hard"));
-        questions.add(new Question("In Java, what is the 'Diamond Problem'?", Arrays.asList("Memory Leak", "Multiple Inheritance ambiguity", "Infinite Recursion", "Garbage Collection issue"), 1, "Hard"));
-        questions.add(new Question("What is the purpose of the 'finally' block in exception handling?", Arrays.asList("To catch exceptions", "To throw exceptions", "To execute code regardless of an exception", "To exit the program"), 2, "Hard"));
-        questions.add(new Question("Which protocol operates at the Transport Layer of the OSI model?", Arrays.asList("IP", "TCP", "HTTP", "Ethernet"), 1, "Hard"));
+        questions.add(new Question("What is the worst-case time complexity of the QuickSort algorithm?", Arrays.asList("O(n^2)", "O(n log n)", "O(n)", "O(log n)"), 0, "Hard"));
+        questions.add(new Question("Which Gang of Four (GoF) design pattern is used to decouple an abstraction from its implementation so that the two can vary independently?", Arrays.asList("Bridge", "Adapter", "Decorator", "Facade"), 0, "Hard"));
+        questions.add(new Question("In Java, what is the key difference between '==' and the '.equals()' method when comparing two String objects?", Arrays.asList("'==' compares references, '.equals()' compares value contents", "'==' compares value contents, '.equals()' compares references", "There is no difference", "'==' is only valid for primitive numeric types"), 0, "Hard"));
+        questions.add(new Question("What is the term for a concurrency issue where two or more processes are unable to proceed because each is waiting for the other to release a resource?", Arrays.asList("Deadlock", "Livelock", "Race Condition", "Starvation"), 0, "Hard"));
+        questions.add(new Question("In C#, what does the 'yield return' statement do inside an iterator method?", Arrays.asList("It returns one element at a time, pausing execution until the next iteration", "It stops the loop and returns the entire collection immediately", "It spawns a new thread to run the loop in the background", "It throws an exception if the collection is empty"), 0, "Hard"));
+        questions.add(new Question("Which protocol is typically used by Git for secure, passwordless authentication and data transfer?", Arrays.asList("SSH", "HTTPS", "FTP", "Telnet"), 0, "Hard"));
+        questions.add(new Question("What is the maximum number of nodes in a binary tree of height 'h' (where height of a single root node is 0)?", Arrays.asList("2^(h+1) - 1", "2^h", "2h - 1", "h^2"), 0, "Hard"));
+        questions.add(new Question("In networking, what does the 'CIDR' notation represent?", Arrays.asList("Classless Inter-Domain Routing", "Core Internet Data Router", "Combined Internal Domain Registration", "Classed IP Distribution Range"), 0, "Hard"));
+        questions.add(new Question("Which sorting algorithm is stable and guarantees a time complexity of O(n log n) in all cases (best, worst, average)?", Arrays.asList("MergeSort", "QuickSort", "HeapSort", "SelectionSort"), 0, "Hard"));
+        questions.add(new Question("What is the time complexity of prepending (inserting at the beginning) an element into a singly linked list with 'n' elements?", Arrays.asList("O(1)", "O(n)", "O(log n)", "O(n^2)"), 0, "Hard"));
+        questions.add(new Question("In Python, what is a decorator?", Arrays.asList("A function that takes another function as an argument and extends its behavior without modifying it", "A class attribute used to design user interfaces", "A mechanism to declare constant variables", "A built-in GUI library in the standard library"), 0, "Hard"));
+        questions.add(new Question("In Java, what is the primary purpose of the 'volatile' keyword when applied to a class field?", Arrays.asList("To guarantee that reads/writes to the variable are synchronized across all threads", "To prevent the variable from being serialized during network transmission", "To make the variable read-only and constant", "To speed up calculation performance on multi-core CPUs"), 0, "Hard"));
+        questions.add(new Question("Which HTTP status code is returned by a server when it encounters an unexpected condition that prevents it from fulfilling the request?", Arrays.asList("500 Internal Server Error", "403 Forbidden", "404 Not Found", "503 Service Unavailable"), 0, "Hard"));
+        questions.add(new Question("What is the primary architectural difference between a Process and a Thread in operating systems?", Arrays.asList("Threads share the memory space of their parent process, whereas processes have independent memory spaces", "Processes are lightweight compared to threads", "Threads cannot be run concurrently on multi-core systems", "Processes do not have overhead"), 0, "Hard"));
+        questions.add(new Question("In relational databases, which SQL operator is used to combine rows from two or more tables based on a related column?", Arrays.asList("JOIN", "UNION", "MERGE", "GROUP BY"), 0, "Hard"));
+        questions.add(new Question("In JavaScript, what is the result of evaluating '0.1 + 0.2 === 0.3' due to floating-point representation?", Arrays.asList("false", "true", "undefined", "NaN"), 0, "Hard"));
+        questions.add(new Question("Which asymmetric encryption algorithm relies on the mathematical difficulty of factoring large prime numbers for its security?", Arrays.asList("RSA", "AES", "DES", "Blowfish"), 0, "Hard"));
+        questions.add(new Question("In React, what is the primary purpose of the 'useEffect' hook?", Arrays.asList("To perform side effects in functional components", "To manage local state variables", "To speed up rendering speeds", "To navigate between application pages"), 0, "Hard"));
+        questions.add(new Question("What is a 'Race Condition' in concurrent programming?", Arrays.asList("A bug where the output of a program depends on the non-deterministic execution order of concurrent threads", "An application crash when a thread takes too long to respond", "A competition between processes to see which completes first", "A network bottleneck due to high packet speeds"), 0, "Hard"));
+        questions.add(new Question("Which data structure is most appropriate and efficient for implementing a multi-level 'Undo' history in an application?", Arrays.asList("Stack", "Queue", "Binary Search Tree", "Hash Map"), 0, "Hard"));
+        questions.add(new Question("On a standard 64-bit operating system, what is the typical memory size of an 'int' data type in C?", Arrays.asList("4 bytes", "2 bytes", "8 bytes", "16 bytes"), 0, "Hard"));
+        questions.add(new Question("What does the 'S' stand for in the 'SOLID' object-oriented design principles?", Arrays.asList("Single Responsibility Principle", "Structural Design Principle", "State Management Principle", "Static Class Principle"), 0, "Hard"));
+        questions.add(new Question("In database systems, which transaction isolation level is the highest and completely prevents 'Dirty Reads', 'Non-Repeatable Reads', and 'Phantom Reads'?", Arrays.asList("Serializable", "Read Committed", "Repeatable Read", "Read Uncommitted"), 0, "Hard"));
+        questions.add(new Question("What is the worst-case time complexity of searching for a value in a balanced Binary Search Tree (like an AVL tree) with 'n' nodes?", Arrays.asList("O(log n)", "O(n)", "O(n log n)", "O(1)"), 0, "Hard"));
+        questions.add(new Question("In Linux/UNIX administration, what signal is sent to a process when executing the 'kill -9' command?", Arrays.asList("SIGKILL", "SIGTERM", "SIGINT", "SIGHUP"), 0, "Hard"));
+        questions.add(new Question("What is the primary benefit of deploying a 'Reverse Proxy' server like Nginx in front of a web application?", Arrays.asList("All of these (Load balancing, SSL termination, and security caching)", "SSL decryption termination", "Intelligent load balancing across backend nodes", "Static content caching and security filtering"), 0, "Hard"));
+        questions.add(new Question("Which data structure is typically used to implement a Breadth-First Search (BFS) algorithm on a graph?", Arrays.asList("Queue", "Stack", "Priority Queue", "Linked List"), 0, "Hard"));
+        questions.add(new Question("In object-oriented programming, what is the 'Diamond Problem'?", Arrays.asList("An ambiguity that arises when a class inherits from two classes that both inherit from a single superclass", "A memory leak caused by circular object references", "An infinite recursion bug when calling overloaded constructors", "A performance bottleneck in deep hierarchy trees"), 0, "Hard"));
+        questions.add(new Question("What is the purpose of the 'finally' block in a try-catch-finally exception handling structure?", Arrays.asList("To execute cleanup code regardless of whether an exception was thrown or caught", "To catch any remaining unhandled exceptions", "To throw a new exception to the calling method", "To terminate the application immediately"), 0, "Hard"));
+        questions.add(new Question("Which layer of the OSI network model is responsible for logical addressing, routing, and packet forwarding?", Arrays.asList("Network Layer", "Transport Layer", "Data Link Layer", "Physical Layer"), 0, "Hard"));
 
         return new Quiz("coding-quiz-java", "Coding Basics", "Coding", "Software development from syntax to algorithms.", questions);
     }
@@ -309,36 +313,36 @@ public class QuizDataGenerator {
         questions.add(new Question("What is the value of 0.5 as a fraction?", Arrays.asList("1/5", "1/2", "5/100", "1/4"), 1, "Medium"));
 
         // --- HARD (30 Questions) ---
-        questions.add(new Question("What is the derivative of sin(x)?", Arrays.asList("cos(x)", "-cos(x)", "tan(x)", "sin(x)"), 0, "Hard"));
-        questions.add(new Question("Solve for x: log10(x) = 2", Arrays.asList("10", "20", "100", "200"), 2, "Hard"));
-        questions.add(new Question("What is the value of pi to 4 decimal places?", Arrays.asList("3.1415", "3.1416", "3.1414", "3.1417"), 1, "Hard"));
-        questions.add(new Question("What is the integral of 1/x dx?", Arrays.asList("x^2", "ln|x| + C", "e^x", "1"), 1, "Hard"));
-        questions.add(new Question("In a right triangle, if a=3 and b=4, what is c?", Arrays.asList("5", "6", "7", "25"), 0, "Hard"));
-        questions.add(new Question("What is the sum of angles in a hexagon?", Arrays.asList("360", "540", "720", "900"), 2, "Hard"));
-        questions.add(new Question("Solve: 2^x = 64", Arrays.asList("4", "5", "6", "7"), 2, "Hard"));
-        questions.add(new Question("What is the square root of 225?", Arrays.asList("13", "14", "15", "16"), 2, "Hard"));
-        questions.add(new Question("Value of cos(0)?", Arrays.asList("0", "1", "-1", "0.5"), 1, "Hard"));
-        questions.add(new Question("What is 15% of 200?", Arrays.asList("20", "25", "30", "35"), 2, "Hard"));
-        questions.add(new Question("What is the area of a circle with radius 7? (use pi=22/7)", Arrays.asList("154", "44", "49", "144"), 0, "Hard"));
-        questions.add(new Question("If 3x + 5 = 20, what is x?", Arrays.asList("4", "5", "6", "7"), 1, "Hard"));
-        questions.add(new Question("What is the cube root of 27?", Arrays.asList("2", "3", "4", "9"), 1, "Hard"));
-        questions.add(new Question("What is the value of 5! (factorial)?", Arrays.asList("60", "100", "120", "150"), 2, "Hard"));
-        questions.add(new Question("How many degrees in a straight line?", Arrays.asList("90", "180", "270", "360"), 1, "Hard"));
-        questions.add(new Question("What is the median of {1, 3, 3, 6, 7, 8, 9}?", Arrays.asList("3", "6", "7", "8"), 1, "Hard"));
-        questions.add(new Question("If a=5 and b=12 in a right triangle, c=?", Arrays.asList("13", "14", "15", "17"), 0, "Hard"));
-        questions.add(new Question("What is the slope of y = 3x + 4?", Arrays.asList("3", "4", "x", "y"), 0, "Hard"));
-        questions.add(new Question("What is the value of e (approx)?", Arrays.asList("2.718", "3.142", "1.414", "1.732"), 0, "Hard"));
-        questions.add(new Question("Solve: x^2 - 9 = 0", Arrays.asList("3", "-3", "3 and -3", "0"), 2, "Hard"));
-        questions.add(new Question("What is the next prime number after 13?", Arrays.asList("15", "17", "19", "21"), 1, "Hard"));
-        questions.add(new Question("What is 1000 divided by 8?", Arrays.asList("120", "125", "130", "150"), 1, "Hard"));
-        questions.add(new Question("Area of triangle with base 10 and height 5?", Arrays.asList("25", "50", "15", "100"), 0, "Hard"));
-        questions.add(new Question("What is binary 1010 in decimal?", Arrays.asList("8", "10", "12", "14"), 1, "Hard"));
-        questions.add(new Question("What is the value of tan(45)?", Arrays.asList("0", "0.5", "1", "undefined"), 2, "Hard"));
-        questions.add(new Question("Volume of a cube with side 4?", Arrays.asList("16", "32", "64", "128"), 2, "Hard"));
-        questions.add(new Question("What is the probability of flipping 2 heads?", Arrays.asList("0.5", "0.25", "0.75", "1"), 1, "Hard"));
-        questions.add(new Question("What is the range of y = sin(x)?", Arrays.asList("0 to 1", "-1 to 1", "-inf to inf", "0 to inf"), 1, "Hard"));
-        questions.add(new Question("Solve: sqrt(x) = 12", Arrays.asList("12", "144", "24", "120"), 1, "Hard"));
-        questions.add(new Question("What is the interior angle of a square?", Arrays.asList("45", "90", "180", "360"), 1, "Hard"));
+        questions.add(new Question("What is the derivative of x^x with respect to x?", Arrays.asList("x^x (ln(x) + 1)", "x * x^(x-1)", "x^x", "x^x * ln(x)"), 0, "Hard"));
+        questions.add(new Question("Which English mathematician famously proved Fermat's Last Theorem in 1994?", Arrays.asList("Andrew Wiles", "Alan Turing", "G. H. Hardy", "Roger Penrose"), 0, "Hard"));
+        questions.add(new Question("What is the value of the infinite series 1/1^2 + 1/2^2 + 1/3^2 + ... (known as the Basel Problem)?", Arrays.asList("pi^2 / 6", "pi / 4", "ln(2)", "pi^2 / 8"), 0, "Hard"));
+        questions.add(new Question("What is the value of the Gaussian integral (the integral from negative infinity to infinity of e^(-x^2) dx)?", Arrays.asList("sqrt(pi)", "sqrt(pi) / 2", "1", "2 * sqrt(pi)"), 0, "Hard"));
+        questions.add(new Question("What is the mathematical term for a non-orientable 2D surface that has only one side and one boundary?", Arrays.asList("Mobius strip", "Klein bottle", "Torus", "Projective plane"), 0, "Hard"));
+        questions.add(new Question("How many regular convex polyhedra (Platonic solids) exist in 3-dimensional space?", Arrays.asList("5", "4", "6", "8"), 0, "Hard"));
+        questions.add(new Question("The Riemann Hypothesis, one of the Millennium Prize Problems, states that all non-trivial zeros of the Riemann zeta function have a real part equal to what?", Arrays.asList("1/2", "1", "0", "-1/2"), 0, "Hard"));
+        questions.add(new Question("What is the value of i^i (where 'i' is the imaginary unit, sqrt(-1))?", Arrays.asList("e^(-pi/2)", "e^(pi/2)", "i", "-1"), 0, "Hard"));
+        questions.add(new Question("In axiomatic set theory, which hypothesis asserts that there is no set whose cardinality is strictly between that of the integers and the real numbers?", Arrays.asList("Continuum Hypothesis", "Axiom of Choice", "Well-Ordering Theorem", "Russell's Paradox"), 0, "Hard"));
+        questions.add(new Question("How many vertices does a regular dodecahedron possess?", Arrays.asList("20", "12", "30", "8"), 0, "Hard"));
+        questions.add(new Question("Which mathematical constant represents the limiting ratio of the bifurcation intervals in chaos theory?", Arrays.asList("Feigenbaum constant (delta)", "Euler-Mascheroni constant (gamma)", "Golden ratio (phi)", "Apéry's constant"), 0, "Hard"));
+        questions.add(new Question("What is the order (number of elements) of the smallest non-abelian simple group?", Arrays.asList("60", "168", "360", "504"), 0, "Hard"));
+        questions.add(new Question("What is the exact algebraic value of the Golden Ratio (phi)?", Arrays.asList("(1 + sqrt(5)) / 2", "(1 - sqrt(5)) / 2", "1.618", "sqrt(2) + 1"), 0, "Hard"));
+        questions.add(new Question("Under which integral transform is a convolution of two functions represented as a simple multiplication of their individual transforms?", Arrays.asList("All of these (Fourier, Laplace, and Z-Transforms)", "Fourier Transform", "Laplace Transform", "Z-Transform"), 0, "Hard"));
+        questions.add(new Question("Which fundamental mathematical theorem states that every bounded sequence in R^n has a convergent subsequence?", Arrays.asList("Bolzano-Weierstrass Theorem", "Heine-Borel Theorem", "Mean Value Theorem", "Taylor's Theorem"), 0, "Hard"));
+        questions.add(new Question("In graph theory, what is the maximum number of edges in a simple bipartite graph with 'n' vertices?", Arrays.asList("n^2 / 4", "n(n-1) / 2", "n^2 / 2", "n"), 0, "Hard"));
+        questions.add(new Question("What is the Gaussian curvature of a flat, two-dimensional Euclidean plane?", Arrays.asList("0", "1", "-1", "Variable"), 0, "Hard"));
+        questions.add(new Question("Which famous mathematical paradox describes a hotel with infinitely many rooms that can still accommodate new guests?", Arrays.asList("Hilbert's Paradox of the Grand Hotel", "Banach-Tarski Paradox", "Russell's Paradox", "Zeno's Paradox"), 0, "Hard"));
+        questions.add(new Question("The natural exponential base 'e' is mathematically defined as the limit of '(1 + 1/n)^n' as 'n' approaches what?", Arrays.asList("Infinity", "1", "0", "e"), 0, "Hard"));
+        questions.add(new Question("In statistics, what approximate percentage of data values falls within two standard deviations of the mean in a normal (Gaussian) distribution?", Arrays.asList("~95.4%", "~68.3%", "~99.7%", "~50.0%"), 0, "Hard"));
+        questions.add(new Question("What is the transcendental number that represents the ratio of a circle's circumference to its diameter?", Arrays.asList("pi", "e", "phi", "Euler's constant"), 0, "Hard"));
+        questions.add(new Question("Which topological space is formed by taking a square and gluing the opposite edges together, with one pair reversed?", Arrays.asList("Klein bottle", "Mobius strip", "Torus", "Sphere"), 0, "Hard"));
+        questions.add(new Question("In cryptography, the security of the Diffie-Hellman key exchange is primarily based on the computational difficulty of solving which mathematical problem?", Arrays.asList("Discrete Logarithm Problem", "Integer Factorization Problem", "Elliptic Curve Addition", "Knapsack Problem"), 0, "Hard"));
+        questions.add(new Question("How many dimensions are required to construct a tesseract (a 4-dimensional hypercube)?", Arrays.asList("4", "3", "5", "8"), 0, "Hard"));
+        questions.add(new Question("What is the term for a real number that cannot be expressed as a fraction of two integers, such as the square root of 2?", Arrays.asList("Irrational number", "Rational number", "Complex number", "Integer"), 0, "Hard"));
+        questions.add(new Question("Which theorem states that every non-constant polynomial of degree 'n' with complex coefficients has exactly 'n' complex roots, counted with multiplicity?", Arrays.asList("Fundamental Theorem of Algebra", "Fundamental Theorem of Calculus", "Fundamental Theorem of Arithmetic", "Abel-Ruffini Theorem"), 0, "Hard"));
+        questions.add(new Question("In abstract algebra, if every element in a group is its own inverse (g * g = e for all g), then what property must the group satisfy?", Arrays.asList("It must be Abelian", "It must be Cyclic", "It must be Infinite", "It must be Non-abelian"), 0, "Hard"));
+        questions.add(new Question("Which prolific Swiss mathematician introduced the function notation 'f(x)', the base of natural log 'e', and the summation symbol 'Sigma'?", Arrays.asList("Leonhard Euler", "Isaac Newton", "Gottfried Leibniz", "René Descartes"), 0, "Hard"));
+        questions.add(new Question("What is the exact sum of the infinite geometric series 1/2 + 1/4 + 1/8 + 1/16 + ...?", Arrays.asList("1", "2", "1.5", "Infinity"), 0, "Hard"));
+        questions.add(new Question("What is the exact mathematical value of the gamma function evaluated at 1/2, Gamma(1/2)?", Arrays.asList("sqrt(pi)", "1", "sqrt(2)", "pi"), 0, "Hard"));
 
         return new Quiz("maths-quiz-java", "Mathematics", "Maths", "Arithmetic, Algebra, and Calculus.", questions);
     }

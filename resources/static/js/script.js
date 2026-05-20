@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentQuestionIndex = 0;
     let score = 0;
     let currentHealth = 10;
-    const maxHealth = 10;
+    let maxHealth = 10;
     let selectedCategory = '';
     let selectedDifficulty = '';
 
@@ -184,6 +184,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function startQuiz(questions) {
+        // Set maxHealth based on difficulty: Easy = 9, Medium (Normal) = 7, Hard (Hardcore) = 5
+        if (selectedDifficulty === 'Easy') {
+            maxHealth = 9;
+        } else if (selectedDifficulty === 'Medium') {
+            maxHealth = 7;
+        } else if (selectedDifficulty === 'Hard') {
+            maxHealth = 5;
+        } else {
+            maxHealth = 10;
+        }
+
         // Pick 10 random questions from the filtered pool
         activeQuiz = {
             title: `${selectedCategory} - ${selectedDifficulty}`,
